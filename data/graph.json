@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T08:10:05+09:00",
+ "generatedAt": "2026-11-11T08:10:41+09:00",
  "lastUpdated": "2026-11-11",
  "counts": {
   "items": 289,
@@ -23769,10 +23769,10 @@
    "from": "2026-11-08-5",
    "to": "2026-11-11-2",
    "type": "causes",
-   "label": "因果: Anthropic・Nasdaq · Anthropic/IPO",
+   "label": "1.5兆ドルに疑問の声 → 仮条件は最大1.4兆ドル（下振れ観測を価格に反映）",
    "confidence": 0.55,
-   "auto": true,
-   "note": ""
+   "auto": false,
+   "note": "手動: 2026-11-11 朝ラン。投資家の下振れ観測（11/8）を受け、仮条件の上限が約1.405兆ドルに。"
   },
   {
    "id": "link-2343",
