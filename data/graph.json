@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T08:09:50+09:00",
+ "generatedAt": "2026-11-11T08:10:05+09:00",
  "lastUpdated": "2026-11-11",
  "counts": {
   "items": 289,
@@ -46,14 +46,14 @@
    "name": "AIインフラ・DC",
    "short": "AIインフラ",
    "color": "#2dd4bf",
-   "count": 37
+   "count": 38
   },
   {
    "key": "semi",
    "name": "半導体・製造",
    "short": "半導体",
    "color": "#fbbf24",
-   "count": 74
+   "count": 73
   },
   {
    "key": "model",
@@ -6972,7 +6972,7 @@
     "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
    },
    "ai": true,
-   "theme": "semi"
+   "theme": "infra"
   },
   {
    "id": "2026-11-11-3",
