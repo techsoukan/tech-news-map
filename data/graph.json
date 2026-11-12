@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T08:09:43+09:00",
+ "generatedAt": "2026-11-13T08:10:31+09:00",
  "lastUpdated": "2026-11-13",
  "counts": {
   "items": 303,
@@ -25022,10 +25022,10 @@
    "from": "2026-11-10-1",
    "to": "2026-11-13-1",
    "type": "causes",
-   "label": "因果: Jensen Huang・NVIDIA · NVIDIA/governance",
+   "label": "NVIDIAの独立調査 → フアン氏辞任（疑惑が数日で経営交代に）",
    "confidence": 0.62,
    "auto": true,
-   "note": ""
+   "note": "手動: 2026-11-13 朝ラン。11/10の取締役会調査から、2件目の不倫報道を経て辞任・暫定CEOへ。"
   },
   {
    "id": "link-2466",
