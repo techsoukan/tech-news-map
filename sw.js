@@ -3,7 +3,7 @@
  * - static assets: cache-first
  * VERSION is rewritten by scripts/build_pwa.py on every data build.
  */
-const VERSION = "tnm-20261119-075453";
+const VERSION = "tnm-20261120-075025";
 const CACHE = "tnm-pwa-" + VERSION;
 const DATA_URL = "data/graph.json";
 const ASSETS = [
