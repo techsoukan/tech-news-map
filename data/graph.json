@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-27T07:47:39+09:00",
- "lastUpdated": "2026-11-27",
+ "generatedAt": "2026-11-28T07:51:50+09:00",
+ "lastUpdated": "2026-11-28",
  "counts": {
-  "items": 385,
-  "links": 2311
+  "items": 392,
+  "links": 2347
  },
  "themes": [
   {
@@ -18,14 +18,14 @@
    "name": "セキュリティ・攻撃",
    "short": "セキュリティ",
    "color": "#fb923c",
-   "count": 44
+   "count": 46
   },
   {
    "key": "policy",
    "name": "政策・規制",
    "short": "政策・規制",
    "color": "#e879f9",
-   "count": 40
+   "count": 41
   },
   {
    "key": "chipdesign",
@@ -53,14 +53,14 @@
    "name": "半導体・製造",
    "short": "半導体",
    "color": "#fbbf24",
-   "count": 97
+   "count": 100
   },
   {
    "key": "model",
    "name": "AIモデル・サービス",
    "short": "AIモデル",
    "color": "#818cf8",
-   "count": 54
+   "count": 55
   },
   {
    "key": "other",
@@ -9265,6 +9265,170 @@
    "source": {
     "label": "Reuters（Economic Times）",
     "url": "https://m.economictimes.com/markets/us-stocks/news/sp-warns-nvidias-board-may-be-compromised-puts-chipmakers-rating-on-downgrade-watch/amp_articleshow/136175537.cms"
+   },
+   "ai": false,
+   "slot": "extra",
+   "theme": "semi"
+  },
+  {
+   "id": "2026-11-28-1",
+   "date": "2026-11-28",
+   "title": "OpenAI、Appleを逆提訴——『営業秘密を盗み、共通の部品メーカーに圧力』と主張、端末開発をめぐる争いが激化",
+   "summary": "OpenAIは27日、カリフォルニア州の裁判所でAppleを提訴した。Appleが営業秘密を盗み、OpenAIと取引する部品メーカーを『強要・脅迫』して調達を妨げたと主張する。Appleは7月、元社員のタン氏らがOpenAIに機密を持ち出したとしてOpenAIとioを訴えており、今回はその反撃。OpenAIは10月にも、Appleに戻った元社員が未発表端末の資料100件超を私的アカウントに送ったと訴えていた（9to5Mac、FT）。",
+   "entities": [
+    "OpenAI",
+    "Apple",
+    "io",
+    "Jony Ive"
+   ],
+   "themes": [
+    "lawsuit",
+    "AI hardware",
+    "trade secrets"
+   ],
+   "source": {
+    "label": "9to5Macの記事",
+    "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/"
+   },
+   "ai": true,
+   "theme": "policy"
+  },
+  {
+   "id": "2026-11-28-2",
+   "date": "2026-11-28",
+   "title": "【続報】禁輸のNVIDIA『GB300 NVL72』、上海のデータセンターで確認——Megaspeed系の企業が融資の担保に、シリアルからGigabyte製と判明（ブルームバーグ）",
+   "summary": "ブルームバーグは27日、上海の『長江デルタ・プロジェクト』にGB300 NVL72とGB200のラックがあることを、中国当局への提出書類から突き止めたと報じた。Megaspeedとつながる上海碩耀は、GB300ラックを約1400万ドルの融資の担保にしていた。シリアル番号から台湾Gigabyte製と分かったが、誰が買ったかは不明。対中輸出には許可が要り、フアン氏はかつて『大きすぎて密輸できない』と話していた（Engadget）。",
+   "entities": [
+    "NVIDIA",
+    "Megaspeed",
+    "Gigabyte",
+    "GB300"
+   ],
+   "themes": [
+    "export control",
+    "smuggling",
+    "Blackwell"
+   ],
+   "source": {
+    "label": "Engadgetの記事",
+    "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/"
+   },
+   "ai": false,
+   "theme": "semi"
+  },
+  {
+   "id": "2026-11-28-3",
+   "date": "2026-11-28",
+   "title": "SAP、GitHubで不審な動き——社員の認証トークンを盗まれソースコードを複製・改変された疑い、社内コード名『Project Granite』",
+   "summary": "独シュピーゲルは27日、SAPがサイバー攻撃を受けたと社内文書をもとに報じた。攻撃者は社員の認証トークンを盗み、GitHub上のSAPのソースコードを複製し、書き換えた疑いがある。AIツールが使われた可能性も指摘される。SAPは『不審な活動を見つけ、顧客を守る措置を取った。顧客の業務データへの不正アクセスの証拠はない』としたが、GitHubのコードを使う客が何かすべきかは答えていない（BleepingComputer）。",
+   "entities": [
+    "SAP",
+    "GitHub",
+    "Der Spiegel"
+   ],
+   "themes": [
+    "supply chain",
+    "breach",
+    "source code"
+   ],
+   "source": {
+    "label": "BleepingComputerの記事",
+    "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
+   },
+   "ai": false,
+   "theme": "security"
+  },
+  {
+   "id": "2026-11-28-4",
+   "date": "2026-11-28",
+   "title": "【続報】米空軍のクラウド基盤『Cloud One』に侵入——人事・兵站の業務を支える国防総省のクラウド、FBI・CIA・財務省に続く被害",
+   "summary": "ロイターは27日、米空軍のクラウド基盤Cloud Oneにハッカーが侵入したと報じた。この1か月の間、更新作業中に見つかり、アプリの移行やソフト更新が止まった。未知の脆弱性が使われたとみられ、作戦や兵站の情報が漏れたおそれがある。米サイバー軍が調査中で、犯人やデータ流出の有無は不明。空軍はコメントを控えた。FBIのNCIC、CIA・ODNI、FinCENと被害が続いている（BleepingComputer）。",
+   "entities": [
+    "US Air Force",
+    "Cloud One",
+    "Cyber Command",
+    "FBI",
+    "CIA"
+   ],
+   "themes": [
+    "government",
+    "breach",
+    "security"
+   ],
+   "source": {
+    "label": "BleepingComputerの記事",
+    "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
+   },
+   "ai": false,
+   "theme": "security"
+  },
+  {
+   "id": "2026-11-28-5",
+   "date": "2026-11-28",
+   "title": "【続報】OpenAI、GPT-6.2 AstraとSolの使用量の数え間違いを修正——上限に届くのがAstraは40%、Solは25%早く、おわびに『リセット1回』",
+   "summary": "OpenAIでChatGPTとCodexを率いるソッティオ氏は、11月17日公開のGPT-6.2 AstraとSolで使用量を少なく数える誤りがあったと説明した。修正後は先週に比べ、上限に届くのがAstraで40%、Solで25%早くなる。それでも前の世代より効率は良いという。差額は請求しないが、Go・Plus・Pro・Businessの全員に、1か月有効の使用量リセットを1回分配った（BleepingComputer）。",
+   "entities": [
+    "OpenAI",
+    "GPT-6.2 Astra",
+    "GPT-6.2 Sol",
+    "ChatGPT",
+    "Codex"
+   ],
+   "themes": [
+    "ChatGPT",
+    "usage limits",
+    "GPT-6.2"
+   ],
+   "source": {
+    "label": "BleepingComputerの記事",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/"
+   },
+   "ai": true,
+   "theme": "model"
+  },
+  {
+   "id": "2026-11-28-6",
+   "date": "2026-11-28",
+   "title": "【続報】米国のNVIDIA『優先パートナー』2社は実は中国資本——CBSの調査、Inspur子会社のAivresは東南アジアに30億ドル分のサーバーを輸出",
+   "summary": "CBSニュースは25日、NPOのC4ADSと調べた結果、NVIDIAの最上位GPUを買えるサンノゼのRiCloud AIが深圳の宇星系の子会社だと報じた。台湾のウイスキー会社に1億2000万ドルでサーバーを貸す契約も結んでいる。エンティティリスト入りのInspurの子会社Aivresは、2024年から東南アジアへ30億ドル相当のNVIDIA製サーバーを輸出していた（SiliconANGLE）。",
+   "entities": [
+    "NVIDIA",
+    "RiCloud AI",
+    "Aivres",
+    "Inspur",
+    "CBS"
+   ],
+   "themes": [
+    "export control",
+    "smuggling"
+   ],
+   "source": {
+    "label": "SiliconANGLEの記事",
+    "url": "https://siliconangle.com/2026/11/26/report-sheds-light-on-china-ties-of-some-us-based-nvidia-partners/"
+   },
+   "ai": false,
+   "slot": "extra",
+   "theme": "semi"
+  },
+  {
+   "id": "2026-11-28-7",
+   "date": "2026-11-28",
+   "title": "【続報】SanDiskが16%高とメモリー株が反発——Micronも7.6%高、決算とNAND価格に注目が移る",
+   "summary": "27日の米市場でSanDiskは15.96%高の85.36ドルで引けた。Micronは7.60%高、Western Digitalは7.22%高、Seagateは7.90%高と、AI投資への不安で売られたメモリー・ストレージ株が戻した。NVIDIAのフアン氏の辞任と復帰で半導体の需要に疑問が出ていたが、投資家はMicronの決算とNAND価格に目を向け始めた（The Motley Fool）。",
+   "entities": [
+    "SanDisk",
+    "Micron",
+    "Western Digital",
+    "Seagate"
+   ],
+   "themes": [
+    "memory",
+    "NAND",
+    "stocks"
+   ],
+   "source": {
+    "label": "The Motley Foolの記事",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-sandisk-surges-16-as-memory-stocks-rebound-from-ai-driven-selloff/"
    },
    "ai": false,
    "slot": "extra",
@@ -24640,6 +24804,16 @@
   },
   {
    "id": "link-2157",
+   "from": "2026-11-02-1",
+   "to": "2026-11-28-5",
+   "type": "related",
+   "label": "関連: ChatGPT・Codex · ChatGPT",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2158",
    "from": "2026-11-02-2",
    "to": "2026-11-02-3",
    "type": "related",
@@ -24649,7 +24823,7 @@
    "note": ""
   },
   {
-   "id": "link-2158",
+   "id": "link-2159",
    "from": "2026-11-02-2",
    "to": "2026-11-02-4",
    "type": "related",
@@ -24659,7 +24833,7 @@
    "note": ""
   },
   {
-   "id": "link-2159",
+   "id": "link-2160",
    "from": "2026-11-02-2",
    "to": "2026-11-08-7",
    "type": "related",
@@ -24669,7 +24843,7 @@
    "note": ""
   },
   {
-   "id": "link-2160",
+   "id": "link-2161",
    "from": "2026-11-02-3",
    "to": "2026-11-03-4",
    "type": "causes",
@@ -24679,7 +24853,7 @@
    "note": ""
   },
   {
-   "id": "link-2161",
+   "id": "link-2162",
    "from": "2026-11-02-3",
    "to": "2026-11-04-3",
    "type": "causes",
@@ -24689,7 +24863,7 @@
    "note": ""
   },
   {
-   "id": "link-2163",
+   "id": "link-2164",
    "from": "2026-11-02-3",
    "to": "2026-11-07-7",
    "type": "related",
@@ -24699,7 +24873,7 @@
    "note": ""
   },
   {
-   "id": "link-2164",
+   "id": "link-2165",
    "from": "2026-11-02-3",
    "to": "2026-11-14-4",
    "type": "related",
@@ -24709,7 +24883,7 @@
    "note": ""
   },
   {
-   "id": "link-2165",
+   "id": "link-2166",
    "from": "2026-11-02-3",
    "to": "2026-11-23-3",
    "type": "related",
@@ -24719,7 +24893,7 @@
    "note": ""
   },
   {
-   "id": "link-2166",
+   "id": "link-2167",
    "from": "2026-11-02-4",
    "to": "2026-11-02-7",
    "type": "same_arc",
@@ -24729,7 +24903,7 @@
    "note": ""
   },
   {
-   "id": "link-2167",
+   "id": "link-2168",
    "from": "2026-11-02-4",
    "to": "2026-11-06-4",
    "type": "related",
@@ -24739,7 +24913,7 @@
    "note": ""
   },
   {
-   "id": "link-2168",
+   "id": "link-2169",
    "from": "2026-11-02-4",
    "to": "2026-11-07-2",
    "type": "related",
@@ -24749,7 +24923,7 @@
    "note": ""
   },
   {
-   "id": "link-2169",
+   "id": "link-2170",
    "from": "2026-11-02-4",
    "to": "2026-11-07-5",
    "type": "related",
@@ -24759,7 +24933,7 @@
    "note": ""
   },
   {
-   "id": "link-2170",
+   "id": "link-2171",
    "from": "2026-11-02-4",
    "to": "2026-11-08-3",
    "type": "related",
@@ -24769,7 +24943,7 @@
    "note": ""
   },
   {
-   "id": "link-2171",
+   "id": "link-2172",
    "from": "2026-11-02-4",
    "to": "2026-11-08-4",
    "type": "related",
@@ -24779,7 +24953,7 @@
    "note": ""
   },
   {
-   "id": "link-2172",
+   "id": "link-2173",
    "from": "2026-11-02-4",
    "to": "2026-11-08-6",
    "type": "related",
@@ -24789,7 +24963,7 @@
    "note": ""
   },
   {
-   "id": "link-2173",
+   "id": "link-2174",
    "from": "2026-11-02-4",
    "to": "2026-11-08-7",
    "type": "related",
@@ -24799,7 +24973,7 @@
    "note": ""
   },
   {
-   "id": "link-2174",
+   "id": "link-2175",
    "from": "2026-11-02-4",
    "to": "2026-11-10-3",
    "type": "related",
@@ -24809,7 +24983,7 @@
    "note": ""
   },
   {
-   "id": "link-2175",
+   "id": "link-2176",
    "from": "2026-11-02-4",
    "to": "2026-11-22-2",
    "type": "related",
@@ -24819,7 +24993,7 @@
    "note": ""
   },
   {
-   "id": "link-2177",
+   "id": "link-2178",
    "from": "2026-11-02-5",
    "to": "2026-11-05-3",
    "type": "related",
@@ -24829,7 +25003,7 @@
    "note": ""
   },
   {
-   "id": "link-2178",
+   "id": "link-2179",
    "from": "2026-11-02-5",
    "to": "2026-11-06-4",
    "type": "related",
@@ -24839,7 +25013,7 @@
    "note": ""
   },
   {
-   "id": "link-2179",
+   "id": "link-2180",
    "from": "2026-11-02-5",
    "to": "2026-11-07-4",
    "type": "related",
@@ -24849,19 +25023,9 @@
    "note": ""
   },
   {
-   "id": "link-2180",
-   "from": "2026-11-02-5",
-   "to": "2026-11-08-2",
-   "type": "related",
-   "label": "関連: Anthropic",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2181",
    "from": "2026-11-02-5",
-   "to": "2026-11-08-5",
+   "to": "2026-11-08-2",
    "type": "related",
    "label": "関連: Anthropic",
    "confidence": 0.28,
@@ -24871,7 +25035,7 @@
   {
    "id": "link-2182",
    "from": "2026-11-02-5",
-   "to": "2026-11-09-2",
+   "to": "2026-11-08-5",
    "type": "related",
    "label": "関連: Anthropic",
    "confidence": 0.28,
@@ -24881,6 +25045,16 @@
   {
    "id": "link-2183",
    "from": "2026-11-02-5",
+   "to": "2026-11-09-2",
+   "type": "related",
+   "label": "関連: Anthropic",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2184",
+   "from": "2026-11-02-5",
    "to": "2026-11-12-2",
    "type": "related",
    "label": "関連: Anthropic・Microsoft",
@@ -24889,7 +25063,7 @@
    "note": ""
   },
   {
-   "id": "link-2184",
+   "id": "link-2185",
    "from": "2026-11-02-5",
    "to": "2026-11-15-3",
    "type": "causes",
@@ -24899,7 +25073,7 @@
    "note": ""
   },
   {
-   "id": "link-2185",
+   "id": "link-2186",
    "from": "2026-11-02-5",
    "to": "2026-11-19-4",
    "type": "related",
@@ -24909,7 +25083,7 @@
    "note": ""
   },
   {
-   "id": "link-2197",
+   "id": "link-2198",
    "from": "2026-11-03-1",
    "to": "2026-11-03-2",
    "type": "related",
@@ -24919,7 +25093,7 @@
    "note": ""
   },
   {
-   "id": "link-2198",
+   "id": "link-2199",
    "from": "2026-11-03-1",
    "to": "2026-11-03-5",
    "type": "related",
@@ -24929,7 +25103,7 @@
    "note": ""
   },
   {
-   "id": "link-2199",
+   "id": "link-2200",
    "from": "2026-11-03-1",
    "to": "2026-11-04-2",
    "type": "related",
@@ -24939,7 +25113,7 @@
    "note": ""
   },
   {
-   "id": "link-2200",
+   "id": "link-2201",
    "from": "2026-11-03-1",
    "to": "2026-11-04-7",
    "type": "same_arc",
@@ -24949,7 +25123,7 @@
    "note": ""
   },
   {
-   "id": "link-2201",
+   "id": "link-2202",
    "from": "2026-11-03-2",
    "to": "2026-11-03-3",
    "type": "related",
@@ -24959,7 +25133,7 @@
    "note": ""
   },
   {
-   "id": "link-2202",
+   "id": "link-2203",
    "from": "2026-11-03-2",
    "to": "2026-11-04-4",
    "type": "related",
@@ -24969,19 +25143,9 @@
    "note": ""
   },
   {
-   "id": "link-2203",
+   "id": "link-2204",
    "from": "2026-11-03-2",
    "to": "2026-11-04-5",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.38,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-2205",
-   "from": "2026-11-03-2",
-   "to": "2026-11-05-3",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.38,
@@ -24991,6 +25155,16 @@
   {
    "id": "link-2206",
    "from": "2026-11-03-2",
+   "to": "2026-11-05-3",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2207",
+   "from": "2026-11-03-2",
    "to": "2026-11-05-5",
    "type": "related",
    "label": "関連: OpenAI",
@@ -24999,7 +25173,7 @@
    "note": ""
   },
   {
-   "id": "link-2207",
+   "id": "link-2208",
    "from": "2026-11-03-2",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25009,7 +25183,7 @@
    "note": ""
   },
   {
-   "id": "link-2208",
+   "id": "link-2209",
    "from": "2026-11-03-2",
    "to": "2026-11-06-4",
    "type": "related",
@@ -25019,7 +25193,7 @@
    "note": ""
   },
   {
-   "id": "link-2209",
+   "id": "link-2210",
    "from": "2026-11-03-2",
    "to": "2026-11-08-1",
    "type": "related",
@@ -25029,7 +25203,7 @@
    "note": ""
   },
   {
-   "id": "link-2211",
+   "id": "link-2212",
    "from": "2026-11-03-2",
    "to": "2026-11-09-3",
    "type": "related",
@@ -25039,7 +25213,7 @@
    "note": ""
   },
   {
-   "id": "link-2212",
+   "id": "link-2213",
    "from": "2026-11-03-2",
    "to": "2026-11-10-5",
    "type": "related",
@@ -25049,7 +25223,7 @@
    "note": ""
   },
   {
-   "id": "link-2213",
+   "id": "link-2214",
    "from": "2026-11-03-3",
    "to": "2026-11-04-5",
    "type": "related",
@@ -25059,7 +25233,7 @@
    "note": ""
   },
   {
-   "id": "link-2214",
+   "id": "link-2215",
    "from": "2026-11-03-3",
    "to": "2026-11-05-3",
    "type": "related",
@@ -25069,7 +25243,7 @@
    "note": ""
   },
   {
-   "id": "link-2215",
+   "id": "link-2216",
    "from": "2026-11-03-3",
    "to": "2026-11-05-5",
    "type": "related",
@@ -25079,7 +25253,7 @@
    "note": ""
   },
   {
-   "id": "link-2216",
+   "id": "link-2217",
    "from": "2026-11-03-3",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25089,19 +25263,9 @@
    "note": ""
   },
   {
-   "id": "link-2217",
+   "id": "link-2218",
    "from": "2026-11-03-3",
    "to": "2026-11-08-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-2219",
-   "from": "2026-11-03-3",
-   "to": "2026-11-09-3",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -25111,7 +25275,7 @@
   {
    "id": "link-2220",
    "from": "2026-11-03-3",
-   "to": "2026-11-10-5",
+   "to": "2026-11-09-3",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -25120,6 +25284,16 @@
   },
   {
    "id": "link-2221",
+   "from": "2026-11-03-3",
+   "to": "2026-11-10-5",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2222",
    "from": "2026-11-03-4",
    "to": "2026-11-03-5",
    "type": "related",
@@ -25129,7 +25303,7 @@
    "note": ""
   },
   {
-   "id": "link-2222",
+   "id": "link-2223",
    "from": "2026-11-03-4",
    "to": "2026-11-04-3",
    "type": "related",
@@ -25139,7 +25313,7 @@
    "note": ""
   },
   {
-   "id": "link-2223",
+   "id": "link-2224",
    "from": "2026-11-03-4",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25149,7 +25323,7 @@
    "note": ""
   },
   {
-   "id": "link-2224",
+   "id": "link-2225",
    "from": "2026-11-03-4",
    "to": "2026-11-06-2",
    "type": "related",
@@ -25159,7 +25333,7 @@
    "note": ""
   },
   {
-   "id": "link-2225",
+   "id": "link-2226",
    "from": "2026-11-03-4",
    "to": "2026-11-07-7",
    "type": "causes",
@@ -25169,7 +25343,7 @@
    "note": ""
   },
   {
-   "id": "link-2226",
+   "id": "link-2227",
    "from": "2026-11-03-4",
    "to": "2026-11-14-4",
    "type": "related",
@@ -25179,7 +25353,7 @@
    "note": ""
   },
   {
-   "id": "link-2227",
+   "id": "link-2228",
    "from": "2026-11-04-1",
    "to": "2026-11-04-2",
    "type": "related",
@@ -25189,7 +25363,7 @@
    "note": ""
   },
   {
-   "id": "link-2228",
+   "id": "link-2229",
    "from": "2026-11-04-1",
    "to": "2026-11-05-1",
    "type": "causes",
@@ -25199,7 +25373,7 @@
    "note": ""
   },
   {
-   "id": "link-2230",
+   "id": "link-2231",
    "from": "2026-11-04-1",
    "to": "2026-11-09-1",
    "type": "related",
@@ -25209,7 +25383,7 @@
    "note": ""
   },
   {
-   "id": "link-2231",
+   "id": "link-2232",
    "from": "2026-11-04-2",
    "to": "2026-11-04-3",
    "type": "causes",
@@ -25219,7 +25393,7 @@
    "note": ""
   },
   {
-   "id": "link-2232",
+   "id": "link-2233",
    "from": "2026-11-04-2",
    "to": "2026-11-04-4",
    "type": "related",
@@ -25229,7 +25403,7 @@
    "note": ""
   },
   {
-   "id": "link-2234",
+   "id": "link-2235",
    "from": "2026-11-04-2",
    "to": "2026-11-05-2",
    "type": "related",
@@ -25239,7 +25413,7 @@
    "note": ""
   },
   {
-   "id": "link-2235",
+   "id": "link-2236",
    "from": "2026-11-04-2",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25249,7 +25423,7 @@
    "note": ""
   },
   {
-   "id": "link-2236",
+   "id": "link-2237",
    "from": "2026-11-04-2",
    "to": "2026-11-06-3",
    "type": "related",
@@ -25259,7 +25433,7 @@
    "note": ""
   },
   {
-   "id": "link-2237",
+   "id": "link-2238",
    "from": "2026-11-04-2",
    "to": "2026-11-07-2",
    "type": "related",
@@ -25269,7 +25443,7 @@
    "note": ""
   },
   {
-   "id": "link-2238",
+   "id": "link-2239",
    "from": "2026-11-04-2",
    "to": "2026-11-11-3",
    "type": "related",
@@ -25279,7 +25453,7 @@
    "note": ""
   },
   {
-   "id": "link-2239",
+   "id": "link-2240",
    "from": "2026-11-04-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -25289,7 +25463,7 @@
    "note": ""
   },
   {
-   "id": "link-2240",
+   "id": "link-2241",
    "from": "2026-11-04-2",
    "to": "2026-11-13-3",
    "type": "related",
@@ -25299,7 +25473,7 @@
    "note": ""
   },
   {
-   "id": "link-2241",
+   "id": "link-2242",
    "from": "2026-11-04-2",
    "to": "2026-11-18-2",
    "type": "related",
@@ -25309,7 +25483,7 @@
    "note": ""
   },
   {
-   "id": "link-2242",
+   "id": "link-2243",
    "from": "2026-11-04-3",
    "to": "2026-11-04-4",
    "type": "related",
@@ -25319,7 +25493,7 @@
    "note": ""
   },
   {
-   "id": "link-2244",
+   "id": "link-2245",
    "from": "2026-11-04-3",
    "to": "2026-11-05-2",
    "type": "related",
@@ -25329,7 +25503,7 @@
    "note": ""
   },
   {
-   "id": "link-2245",
+   "id": "link-2246",
    "from": "2026-11-04-3",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25339,7 +25513,7 @@
    "note": ""
   },
   {
-   "id": "link-2246",
+   "id": "link-2247",
    "from": "2026-11-04-3",
    "to": "2026-11-06-2",
    "type": "causes",
@@ -25349,7 +25523,7 @@
    "note": ""
   },
   {
-   "id": "link-2247",
+   "id": "link-2248",
    "from": "2026-11-04-3",
    "to": "2026-11-06-3",
    "type": "related",
@@ -25359,7 +25533,7 @@
    "note": ""
   },
   {
-   "id": "link-2248",
+   "id": "link-2249",
    "from": "2026-11-04-3",
    "to": "2026-11-07-2",
    "type": "causes",
@@ -25369,7 +25543,7 @@
    "note": ""
   },
   {
-   "id": "link-2249",
+   "id": "link-2250",
    "from": "2026-11-04-3",
    "to": "2026-11-07-3",
    "type": "related",
@@ -25379,7 +25553,7 @@
    "note": ""
   },
   {
-   "id": "link-2250",
+   "id": "link-2251",
    "from": "2026-11-04-3",
    "to": "2026-11-07-7",
    "type": "related",
@@ -25389,7 +25563,7 @@
    "note": ""
   },
   {
-   "id": "link-2251",
+   "id": "link-2252",
    "from": "2026-11-04-3",
    "to": "2026-11-08-6",
    "type": "related",
@@ -25399,7 +25573,7 @@
    "note": ""
   },
   {
-   "id": "link-2253",
+   "id": "link-2254",
    "from": "2026-11-04-3",
    "to": "2026-11-10-1",
    "type": "related",
@@ -25409,7 +25583,7 @@
    "note": ""
   },
   {
-   "id": "link-2254",
+   "id": "link-2255",
    "from": "2026-11-04-3",
    "to": "2026-11-10-4",
    "type": "related",
@@ -25419,7 +25593,7 @@
    "note": ""
   },
   {
-   "id": "link-2256",
+   "id": "link-2257",
    "from": "2026-11-04-3",
    "to": "2026-11-11-2",
    "type": "related",
@@ -25429,7 +25603,7 @@
    "note": ""
   },
   {
-   "id": "link-2257",
+   "id": "link-2258",
    "from": "2026-11-04-3",
    "to": "2026-11-11-3",
    "type": "related",
@@ -25439,7 +25613,7 @@
    "note": ""
   },
   {
-   "id": "link-2258",
+   "id": "link-2259",
    "from": "2026-11-04-3",
    "to": "2026-11-12-5",
    "type": "related",
@@ -25449,7 +25623,7 @@
    "note": ""
   },
   {
-   "id": "link-2259",
+   "id": "link-2260",
    "from": "2026-11-04-3",
    "to": "2026-11-13-3",
    "type": "related",
@@ -25459,7 +25633,7 @@
    "note": ""
   },
   {
-   "id": "link-2260",
+   "id": "link-2261",
    "from": "2026-11-04-3",
    "to": "2026-11-14-4",
    "type": "related",
@@ -25469,7 +25643,7 @@
    "note": ""
   },
   {
-   "id": "link-2261",
+   "id": "link-2262",
    "from": "2026-11-04-4",
    "to": "2026-11-04-7",
    "type": "same_arc",
@@ -25479,7 +25653,7 @@
    "note": ""
   },
   {
-   "id": "link-2262",
+   "id": "link-2263",
    "from": "2026-11-04-4",
    "to": "2026-11-05-2",
    "type": "same_arc",
@@ -25489,7 +25663,7 @@
    "note": ""
   },
   {
-   "id": "link-2264",
+   "id": "link-2265",
    "from": "2026-11-04-4",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25499,7 +25673,7 @@
    "note": ""
   },
   {
-   "id": "link-2265",
+   "id": "link-2266",
    "from": "2026-11-04-4",
    "to": "2026-11-06-3",
    "type": "leads_to",
@@ -25509,7 +25683,7 @@
    "note": ""
   },
   {
-   "id": "link-2266",
+   "id": "link-2267",
    "from": "2026-11-04-4",
    "to": "2026-11-07-2",
    "type": "related",
@@ -25519,7 +25693,7 @@
    "note": ""
   },
   {
-   "id": "link-2267",
+   "id": "link-2268",
    "from": "2026-11-04-4",
    "to": "2026-11-07-3",
    "type": "causes",
@@ -25529,7 +25703,7 @@
    "note": ""
   },
   {
-   "id": "link-2268",
+   "id": "link-2269",
    "from": "2026-11-04-4",
    "to": "2026-11-07-8",
    "type": "causes",
@@ -25539,7 +25713,7 @@
    "note": ""
   },
   {
-   "id": "link-2269",
+   "id": "link-2270",
    "from": "2026-11-04-4",
    "to": "2026-11-08-6",
    "type": "related",
@@ -25549,7 +25723,7 @@
    "note": ""
   },
   {
-   "id": "link-2271",
+   "id": "link-2272",
    "from": "2026-11-04-4",
    "to": "2026-11-10-1",
    "type": "related",
@@ -25559,7 +25733,7 @@
    "note": ""
   },
   {
-   "id": "link-2273",
+   "id": "link-2274",
    "from": "2026-11-04-4",
    "to": "2026-11-11-2",
    "type": "related",
@@ -25569,7 +25743,7 @@
    "note": ""
   },
   {
-   "id": "link-2274",
+   "id": "link-2275",
    "from": "2026-11-04-4",
    "to": "2026-11-12-3",
    "type": "related",
@@ -25579,7 +25753,7 @@
    "note": ""
   },
   {
-   "id": "link-2276",
+   "id": "link-2277",
    "from": "2026-11-04-4",
    "to": "2026-11-16-1",
    "type": "related",
@@ -25589,7 +25763,7 @@
    "note": ""
   },
   {
-   "id": "link-2277",
+   "id": "link-2278",
    "from": "2026-11-04-4",
    "to": "2026-11-17-1",
    "type": "related",
@@ -25599,7 +25773,7 @@
    "note": ""
   },
   {
-   "id": "link-2279",
+   "id": "link-2280",
    "from": "2026-11-04-4",
    "to": "2026-11-19-2",
    "type": "related",
@@ -25609,7 +25783,7 @@
    "note": ""
   },
   {
-   "id": "link-2281",
+   "id": "link-2282",
    "from": "2026-11-04-4",
    "to": "2026-11-21-4",
    "type": "related",
@@ -25619,7 +25793,7 @@
    "note": ""
   },
   {
-   "id": "link-2283",
+   "id": "link-2284",
    "from": "2026-11-04-4",
    "to": "2026-11-26-3",
    "type": "related",
@@ -25629,7 +25803,7 @@
    "note": ""
   },
   {
-   "id": "link-2284",
+   "id": "link-2285",
    "from": "2026-11-04-5",
    "to": "2026-11-05-3",
    "type": "related",
@@ -25639,7 +25813,7 @@
    "note": ""
   },
   {
-   "id": "link-2285",
+   "id": "link-2286",
    "from": "2026-11-04-5",
    "to": "2026-11-05-5",
    "type": "causes",
@@ -25649,7 +25823,7 @@
    "note": ""
   },
   {
-   "id": "link-2286",
+   "id": "link-2287",
    "from": "2026-11-04-5",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25659,7 +25833,7 @@
    "note": ""
   },
   {
-   "id": "link-2287",
+   "id": "link-2288",
    "from": "2026-11-04-5",
    "to": "2026-11-08-1",
    "type": "related",
@@ -25669,7 +25843,7 @@
    "note": ""
   },
   {
-   "id": "link-2289",
+   "id": "link-2290",
    "from": "2026-11-04-5",
    "to": "2026-11-09-3",
    "type": "related",
@@ -25679,7 +25853,7 @@
    "note": ""
   },
   {
-   "id": "link-2290",
+   "id": "link-2291",
    "from": "2026-11-04-5",
    "to": "2026-11-10-5",
    "type": "related",
@@ -25689,7 +25863,7 @@
    "note": ""
   },
   {
-   "id": "link-2291",
+   "id": "link-2292",
    "from": "2026-11-04-5",
    "to": "2026-11-11-4",
    "type": "related",
@@ -25699,7 +25873,7 @@
    "note": ""
   },
   {
-   "id": "link-2304",
+   "id": "link-2305",
    "from": "2026-11-05-2",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25709,7 +25883,7 @@
    "note": ""
   },
   {
-   "id": "link-2305",
+   "id": "link-2306",
    "from": "2026-11-05-2",
    "to": "2026-11-06-3",
    "type": "same_arc",
@@ -25719,7 +25893,7 @@
    "note": ""
   },
   {
-   "id": "link-2306",
+   "id": "link-2307",
    "from": "2026-11-05-2",
    "to": "2026-11-07-2",
    "type": "related",
@@ -25729,7 +25903,7 @@
    "note": ""
   },
   {
-   "id": "link-2307",
+   "id": "link-2308",
    "from": "2026-11-05-2",
    "to": "2026-11-07-3",
    "type": "leads_to",
@@ -25739,7 +25913,7 @@
    "note": ""
   },
   {
-   "id": "link-2308",
+   "id": "link-2309",
    "from": "2026-11-05-2",
    "to": "2026-11-07-8",
    "type": "causes",
@@ -25749,7 +25923,7 @@
    "note": ""
   },
   {
-   "id": "link-2309",
+   "id": "link-2310",
    "from": "2026-11-05-2",
    "to": "2026-11-08-6",
    "type": "related",
@@ -25759,7 +25933,7 @@
    "note": ""
   },
   {
-   "id": "link-2311",
+   "id": "link-2312",
    "from": "2026-11-05-2",
    "to": "2026-11-10-1",
    "type": "related",
@@ -25769,7 +25943,7 @@
    "note": ""
   },
   {
-   "id": "link-2313",
+   "id": "link-2314",
    "from": "2026-11-05-2",
    "to": "2026-11-11-2",
    "type": "related",
@@ -25779,7 +25953,7 @@
    "note": ""
   },
   {
-   "id": "link-2314",
+   "id": "link-2315",
    "from": "2026-11-05-2",
    "to": "2026-11-12-3",
    "type": "related",
@@ -25789,7 +25963,7 @@
    "note": ""
   },
   {
-   "id": "link-2315",
+   "id": "link-2316",
    "from": "2026-11-05-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -25799,7 +25973,7 @@
    "note": ""
   },
   {
-   "id": "link-2317",
+   "id": "link-2318",
    "from": "2026-11-05-2",
    "to": "2026-11-17-1",
    "type": "related",
@@ -25809,7 +25983,7 @@
    "note": ""
   },
   {
-   "id": "link-2319",
+   "id": "link-2320",
    "from": "2026-11-05-2",
    "to": "2026-11-19-2",
    "type": "related",
@@ -25819,7 +25993,7 @@
    "note": ""
   },
   {
-   "id": "link-2322",
+   "id": "link-2323",
    "from": "2026-11-05-3",
    "to": "2026-11-05-5",
    "type": "related",
@@ -25829,7 +26003,7 @@
    "note": ""
   },
   {
-   "id": "link-2323",
+   "id": "link-2324",
    "from": "2026-11-05-3",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25839,7 +26013,7 @@
    "note": ""
   },
   {
-   "id": "link-2324",
+   "id": "link-2325",
    "from": "2026-11-05-3",
    "to": "2026-11-07-1",
    "type": "related",
@@ -25849,7 +26023,7 @@
    "note": ""
   },
   {
-   "id": "link-2325",
+   "id": "link-2326",
    "from": "2026-11-05-3",
    "to": "2026-11-08-1",
    "type": "causes",
@@ -25859,7 +26033,7 @@
    "note": ""
   },
   {
-   "id": "link-2327",
+   "id": "link-2328",
    "from": "2026-11-05-3",
    "to": "2026-11-09-3",
    "type": "related",
@@ -25869,7 +26043,7 @@
    "note": ""
   },
   {
-   "id": "link-2328",
+   "id": "link-2329",
    "from": "2026-11-05-3",
    "to": "2026-11-10-5",
    "type": "related",
@@ -25879,7 +26053,7 @@
    "note": ""
   },
   {
-   "id": "link-2329",
+   "id": "link-2330",
    "from": "2026-11-05-3",
    "to": "2026-11-11-4",
    "type": "related",
@@ -25889,7 +26063,7 @@
    "note": ""
   },
   {
-   "id": "link-2330",
+   "id": "link-2331",
    "from": "2026-11-05-3",
    "to": "2026-11-12-1",
    "type": "related",
@@ -25899,7 +26073,7 @@
    "note": ""
   },
   {
-   "id": "link-2331",
+   "id": "link-2332",
    "from": "2026-11-05-3",
    "to": "2026-11-13-2",
    "type": "related",
@@ -25909,7 +26083,7 @@
    "note": ""
   },
   {
-   "id": "link-2332",
+   "id": "link-2333",
    "from": "2026-11-05-4",
    "to": "2026-11-06-5",
    "type": "same_arc",
@@ -25919,7 +26093,7 @@
    "note": ""
   },
   {
-   "id": "link-2333",
+   "id": "link-2334",
    "from": "2026-11-05-5",
    "to": "2026-11-06-1",
    "type": "related",
@@ -25929,7 +26103,7 @@
    "note": ""
   },
   {
-   "id": "link-2334",
+   "id": "link-2335",
    "from": "2026-11-05-5",
    "to": "2026-11-08-1",
    "type": "related",
@@ -25939,7 +26113,7 @@
    "note": ""
   },
   {
-   "id": "link-2336",
+   "id": "link-2337",
    "from": "2026-11-05-5",
    "to": "2026-11-09-3",
    "type": "related",
@@ -25949,7 +26123,7 @@
    "note": ""
   },
   {
-   "id": "link-2337",
+   "id": "link-2338",
    "from": "2026-11-05-5",
    "to": "2026-11-10-5",
    "type": "related",
@@ -25959,7 +26133,7 @@
    "note": ""
   },
   {
-   "id": "link-2338",
+   "id": "link-2339",
    "from": "2026-11-05-5",
    "to": "2026-11-11-4",
    "type": "related",
@@ -25969,7 +26143,7 @@
    "note": ""
   },
   {
-   "id": "link-2339",
+   "id": "link-2340",
    "from": "2026-11-05-5",
    "to": "2026-11-12-1",
    "type": "related",
@@ -25979,7 +26153,7 @@
    "note": ""
   },
   {
-   "id": "link-2340",
+   "id": "link-2341",
    "from": "2026-11-05-5",
    "to": "2026-11-19-1",
    "type": "related",
@@ -25989,7 +26163,7 @@
    "note": ""
   },
   {
-   "id": "link-2342",
+   "id": "link-2343",
    "from": "2026-11-05-5",
    "to": "2026-11-24-3",
    "type": "related",
@@ -25999,7 +26173,7 @@
    "note": ""
   },
   {
-   "id": "link-2348",
+   "id": "link-2349",
    "from": "2026-11-06-1",
    "to": "2026-11-06-2",
    "type": "related",
@@ -26009,7 +26183,7 @@
    "note": ""
   },
   {
-   "id": "link-2349",
+   "id": "link-2350",
    "from": "2026-11-06-1",
    "to": "2026-11-06-3",
    "type": "related",
@@ -26019,7 +26193,7 @@
    "note": ""
   },
   {
-   "id": "link-2350",
+   "id": "link-2351",
    "from": "2026-11-06-1",
    "to": "2026-11-06-4",
    "type": "related",
@@ -26029,7 +26203,7 @@
    "note": ""
   },
   {
-   "id": "link-2351",
+   "id": "link-2352",
    "from": "2026-11-06-1",
    "to": "2026-11-07-2",
    "type": "related",
@@ -26039,7 +26213,7 @@
    "note": ""
   },
   {
-   "id": "link-2352",
+   "id": "link-2353",
    "from": "2026-11-06-1",
    "to": "2026-11-07-3",
    "type": "related",
@@ -26049,7 +26223,7 @@
    "note": ""
   },
   {
-   "id": "link-2353",
+   "id": "link-2354",
    "from": "2026-11-06-1",
    "to": "2026-11-08-1",
    "type": "related",
@@ -26059,7 +26233,7 @@
    "note": ""
   },
   {
-   "id": "link-2354",
+   "id": "link-2355",
    "from": "2026-11-06-1",
    "to": "2026-11-08-5",
    "type": "related",
@@ -26069,7 +26243,7 @@
    "note": ""
   },
   {
-   "id": "link-2355",
+   "id": "link-2356",
    "from": "2026-11-06-1",
    "to": "2026-11-08-6",
    "type": "related",
@@ -26079,7 +26253,7 @@
    "note": ""
   },
   {
-   "id": "link-2358",
+   "id": "link-2359",
    "from": "2026-11-06-1",
    "to": "2026-11-09-3",
    "type": "related",
@@ -26089,7 +26263,7 @@
    "note": ""
   },
   {
-   "id": "link-2359",
+   "id": "link-2360",
    "from": "2026-11-06-1",
    "to": "2026-11-10-1",
    "type": "related",
@@ -26099,7 +26273,7 @@
    "note": ""
   },
   {
-   "id": "link-2360",
+   "id": "link-2361",
    "from": "2026-11-06-1",
    "to": "2026-11-10-5",
    "type": "related",
@@ -26109,7 +26283,7 @@
    "note": ""
   },
   {
-   "id": "link-2362",
+   "id": "link-2363",
    "from": "2026-11-06-1",
    "to": "2026-11-11-2",
    "type": "related",
@@ -26119,7 +26293,7 @@
    "note": ""
   },
   {
-   "id": "link-2363",
+   "id": "link-2364",
    "from": "2026-11-06-1",
    "to": "2026-11-11-3",
    "type": "related",
@@ -26129,19 +26303,9 @@
    "note": ""
   },
   {
-   "id": "link-2364",
-   "from": "2026-11-06-1",
-   "to": "2026-11-11-4",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2365",
    "from": "2026-11-06-1",
-   "to": "2026-11-12-1",
+   "to": "2026-11-11-4",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.26,
@@ -26151,6 +26315,16 @@
   {
    "id": "link-2366",
    "from": "2026-11-06-1",
+   "to": "2026-11-12-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2367",
+   "from": "2026-11-06-1",
    "to": "2026-11-12-3",
    "type": "related",
    "label": "関連: NVIDIA",
@@ -26159,7 +26333,7 @@
    "note": ""
   },
   {
-   "id": "link-2367",
+   "id": "link-2368",
    "from": "2026-11-06-1",
    "to": "2026-11-12-5",
    "type": "related",
@@ -26169,7 +26343,7 @@
    "note": ""
   },
   {
-   "id": "link-2369",
+   "id": "link-2370",
    "from": "2026-11-06-1",
    "to": "2026-11-13-1",
    "type": "related",
@@ -26179,7 +26353,7 @@
    "note": ""
   },
   {
-   "id": "link-2370",
+   "id": "link-2371",
    "from": "2026-11-06-1",
    "to": "2026-11-13-2",
    "type": "related",
@@ -26189,7 +26363,7 @@
    "note": ""
   },
   {
-   "id": "link-2371",
+   "id": "link-2372",
    "from": "2026-11-06-1",
    "to": "2026-11-13-3",
    "type": "related",
@@ -26199,7 +26373,7 @@
    "note": ""
   },
   {
-   "id": "link-2372",
+   "id": "link-2373",
    "from": "2026-11-06-1",
    "to": "2026-11-13-4",
    "type": "related",
@@ -26209,7 +26383,7 @@
    "note": ""
   },
   {
-   "id": "link-2375",
+   "id": "link-2376",
    "from": "2026-11-06-2",
    "to": "2026-11-06-5",
    "type": "related",
@@ -26219,7 +26393,7 @@
    "note": ""
   },
   {
-   "id": "link-2376",
+   "id": "link-2377",
    "from": "2026-11-06-2",
    "to": "2026-11-07-2",
    "type": "related",
@@ -26229,7 +26403,7 @@
    "note": ""
   },
   {
-   "id": "link-2377",
+   "id": "link-2378",
    "from": "2026-11-06-2",
    "to": "2026-11-07-7",
    "type": "related",
@@ -26239,7 +26413,7 @@
    "note": ""
   },
   {
-   "id": "link-2378",
+   "id": "link-2379",
    "from": "2026-11-06-2",
    "to": "2026-11-11-2",
    "type": "related",
@@ -26249,7 +26423,7 @@
    "note": ""
   },
   {
-   "id": "link-2379",
+   "id": "link-2380",
    "from": "2026-11-06-3",
    "to": "2026-11-06-4",
    "type": "related",
@@ -26259,7 +26433,7 @@
    "note": ""
   },
   {
-   "id": "link-2380",
+   "id": "link-2381",
    "from": "2026-11-06-3",
    "to": "2026-11-07-2",
    "type": "related",
@@ -26269,7 +26443,7 @@
    "note": ""
   },
   {
-   "id": "link-2381",
+   "id": "link-2382",
    "from": "2026-11-06-3",
    "to": "2026-11-07-3",
    "type": "same_arc",
@@ -26279,7 +26453,7 @@
    "note": ""
   },
   {
-   "id": "link-2383",
+   "id": "link-2384",
    "from": "2026-11-06-3",
    "to": "2026-11-08-6",
    "type": "related",
@@ -26289,7 +26463,7 @@
    "note": ""
   },
   {
-   "id": "link-2385",
+   "id": "link-2386",
    "from": "2026-11-06-3",
    "to": "2026-11-10-1",
    "type": "related",
@@ -26299,7 +26473,7 @@
    "note": ""
   },
   {
-   "id": "link-2387",
+   "id": "link-2388",
    "from": "2026-11-06-3",
    "to": "2026-11-11-2",
    "type": "related",
@@ -26309,7 +26483,7 @@
    "note": ""
   },
   {
-   "id": "link-2388",
+   "id": "link-2389",
    "from": "2026-11-06-3",
    "to": "2026-11-12-3",
    "type": "related",
@@ -26319,7 +26493,7 @@
    "note": ""
   },
   {
-   "id": "link-2389",
+   "id": "link-2390",
    "from": "2026-11-06-3",
    "to": "2026-11-12-5",
    "type": "related",
@@ -26329,7 +26503,7 @@
    "note": ""
   },
   {
-   "id": "link-2391",
+   "id": "link-2392",
    "from": "2026-11-06-3",
    "to": "2026-11-13-1",
    "type": "related",
@@ -26339,7 +26513,7 @@
    "note": ""
   },
   {
-   "id": "link-2392",
+   "id": "link-2393",
    "from": "2026-11-06-3",
    "to": "2026-11-13-4",
    "type": "related",
@@ -26349,7 +26523,7 @@
    "note": ""
   },
   {
-   "id": "link-2394",
+   "id": "link-2395",
    "from": "2026-11-06-3",
    "to": "2026-11-17-1",
    "type": "related",
@@ -26359,7 +26533,7 @@
    "note": ""
   },
   {
-   "id": "link-2396",
+   "id": "link-2397",
    "from": "2026-11-06-3",
    "to": "2026-11-19-2",
    "type": "related",
@@ -26369,7 +26543,7 @@
    "note": ""
   },
   {
-   "id": "link-2398",
+   "id": "link-2399",
    "from": "2026-11-06-4",
    "to": "2026-11-07-4",
    "type": "related",
@@ -26379,7 +26553,7 @@
    "note": ""
   },
   {
-   "id": "link-2399",
+   "id": "link-2400",
    "from": "2026-11-06-4",
    "to": "2026-11-07-5",
    "type": "related",
@@ -26389,7 +26563,7 @@
    "note": ""
   },
   {
-   "id": "link-2400",
+   "id": "link-2401",
    "from": "2026-11-06-4",
    "to": "2026-11-08-2",
    "type": "related",
@@ -26399,7 +26573,7 @@
    "note": ""
   },
   {
-   "id": "link-2401",
+   "id": "link-2402",
    "from": "2026-11-06-4",
    "to": "2026-11-08-4",
    "type": "related",
@@ -26409,7 +26583,7 @@
    "note": ""
   },
   {
-   "id": "link-2402",
+   "id": "link-2403",
    "from": "2026-11-06-4",
    "to": "2026-11-08-5",
    "type": "related",
@@ -26419,7 +26593,7 @@
    "note": ""
   },
   {
-   "id": "link-2403",
+   "id": "link-2404",
    "from": "2026-11-06-4",
    "to": "2026-11-09-2",
    "type": "related",
@@ -26429,7 +26603,7 @@
    "note": ""
   },
   {
-   "id": "link-2404",
+   "id": "link-2405",
    "from": "2026-11-06-4",
    "to": "2026-11-10-2",
    "type": "related",
@@ -26439,7 +26613,7 @@
    "note": ""
   },
   {
-   "id": "link-2405",
+   "id": "link-2406",
    "from": "2026-11-06-4",
    "to": "2026-11-10-3",
    "type": "related",
@@ -26449,7 +26623,7 @@
    "note": ""
   },
   {
-   "id": "link-2406",
+   "id": "link-2407",
    "from": "2026-11-06-4",
    "to": "2026-11-11-1",
    "type": "related",
@@ -26459,7 +26633,7 @@
    "note": ""
   },
   {
-   "id": "link-2407",
+   "id": "link-2408",
    "from": "2026-11-06-4",
    "to": "2026-11-11-2",
    "type": "related",
@@ -26469,7 +26643,7 @@
    "note": ""
   },
   {
-   "id": "link-2408",
+   "id": "link-2409",
    "from": "2026-11-06-4",
    "to": "2026-11-12-1",
    "type": "related",
@@ -26479,7 +26653,7 @@
    "note": ""
   },
   {
-   "id": "link-2409",
+   "id": "link-2410",
    "from": "2026-11-06-4",
    "to": "2026-11-12-2",
    "type": "related",
@@ -26489,7 +26663,7 @@
    "note": ""
   },
   {
-   "id": "link-2410",
+   "id": "link-2411",
    "from": "2026-11-06-4",
    "to": "2026-11-12-4",
    "type": "related",
@@ -26499,7 +26673,7 @@
    "note": ""
   },
   {
-   "id": "link-2411",
+   "id": "link-2412",
    "from": "2026-11-06-4",
    "to": "2026-11-12-5",
    "type": "related",
@@ -26509,7 +26683,7 @@
    "note": ""
   },
   {
-   "id": "link-2414",
+   "id": "link-2415",
    "from": "2026-11-07-2",
    "to": "2026-11-07-3",
    "type": "related",
@@ -26519,7 +26693,7 @@
    "note": ""
   },
   {
-   "id": "link-2415",
+   "id": "link-2416",
    "from": "2026-11-07-2",
    "to": "2026-11-08-3",
    "type": "related",
@@ -26529,7 +26703,7 @@
    "note": ""
   },
   {
-   "id": "link-2416",
+   "id": "link-2417",
    "from": "2026-11-07-2",
    "to": "2026-11-08-6",
    "type": "related",
@@ -26539,7 +26713,7 @@
    "note": ""
   },
   {
-   "id": "link-2418",
+   "id": "link-2419",
    "from": "2026-11-07-2",
    "to": "2026-11-10-1",
    "type": "related",
@@ -26549,7 +26723,7 @@
    "note": ""
   },
   {
-   "id": "link-2420",
+   "id": "link-2421",
    "from": "2026-11-07-2",
    "to": "2026-11-11-2",
    "type": "related",
@@ -26559,7 +26733,7 @@
    "note": ""
   },
   {
-   "id": "link-2421",
+   "id": "link-2422",
    "from": "2026-11-07-2",
    "to": "2026-11-11-3",
    "type": "related",
@@ -26569,7 +26743,7 @@
    "note": ""
   },
   {
-   "id": "link-2422",
+   "id": "link-2423",
    "from": "2026-11-07-2",
    "to": "2026-11-12-1",
    "type": "related",
@@ -26579,7 +26753,7 @@
    "note": ""
   },
   {
-   "id": "link-2423",
+   "id": "link-2424",
    "from": "2026-11-07-2",
    "to": "2026-11-12-3",
    "type": "related",
@@ -26589,7 +26763,7 @@
    "note": ""
   },
   {
-   "id": "link-2424",
+   "id": "link-2425",
    "from": "2026-11-07-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -26599,7 +26773,7 @@
    "note": ""
   },
   {
-   "id": "link-2426",
+   "id": "link-2427",
    "from": "2026-11-07-2",
    "to": "2026-11-13-1",
    "type": "related",
@@ -26609,7 +26783,7 @@
    "note": ""
   },
   {
-   "id": "link-2427",
+   "id": "link-2428",
    "from": "2026-11-07-2",
    "to": "2026-11-13-3",
    "type": "related",
@@ -26619,7 +26793,7 @@
    "note": ""
   },
   {
-   "id": "link-2429",
+   "id": "link-2430",
    "from": "2026-11-07-2",
    "to": "2026-11-17-4",
    "type": "related",
@@ -26629,7 +26803,7 @@
    "note": ""
   },
   {
-   "id": "link-2430",
+   "id": "link-2431",
    "from": "2026-11-07-3",
    "to": "2026-11-07-8",
    "type": "same_arc",
@@ -26639,7 +26813,7 @@
    "note": ""
   },
   {
-   "id": "link-2431",
+   "id": "link-2432",
    "from": "2026-11-07-3",
    "to": "2026-11-08-6",
    "type": "related",
@@ -26649,7 +26823,7 @@
    "note": ""
   },
   {
-   "id": "link-2432",
+   "id": "link-2433",
    "from": "2026-11-07-3",
    "to": "2026-11-08-9",
    "type": "same_arc",
@@ -26659,7 +26833,7 @@
    "note": ""
   },
   {
-   "id": "link-2433",
+   "id": "link-2434",
    "from": "2026-11-07-3",
    "to": "2026-11-10-1",
    "type": "related",
@@ -26669,7 +26843,7 @@
    "note": ""
   },
   {
-   "id": "link-2435",
+   "id": "link-2436",
    "from": "2026-11-07-3",
    "to": "2026-11-12-3",
    "type": "related",
@@ -26679,7 +26853,7 @@
    "note": ""
   },
   {
-   "id": "link-2436",
+   "id": "link-2437",
    "from": "2026-11-07-3",
    "to": "2026-11-12-5",
    "type": "related",
@@ -26689,7 +26863,7 @@
    "note": ""
   },
   {
-   "id": "link-2438",
+   "id": "link-2439",
    "from": "2026-11-07-3",
    "to": "2026-11-13-1",
    "type": "related",
@@ -26699,7 +26873,7 @@
    "note": ""
   },
   {
-   "id": "link-2440",
+   "id": "link-2441",
    "from": "2026-11-07-3",
    "to": "2026-11-19-2",
    "type": "related",
@@ -26709,7 +26883,7 @@
    "note": ""
   },
   {
-   "id": "link-2442",
+   "id": "link-2443",
    "from": "2026-11-07-3",
    "to": "2026-11-21-4",
    "type": "related",
@@ -26719,7 +26893,7 @@
    "note": ""
   },
   {
-   "id": "link-2444",
+   "id": "link-2445",
    "from": "2026-11-07-4",
    "to": "2026-11-08-2",
    "type": "related",
@@ -26729,19 +26903,9 @@
    "note": ""
   },
   {
-   "id": "link-2445",
-   "from": "2026-11-07-4",
-   "to": "2026-11-08-5",
-   "type": "related",
-   "label": "関連: Anthropic · Anthropic",
-   "confidence": 0.44,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2446",
    "from": "2026-11-07-4",
-   "to": "2026-11-09-2",
+   "to": "2026-11-08-5",
    "type": "related",
    "label": "関連: Anthropic · Anthropic",
    "confidence": 0.44,
@@ -26751,6 +26915,16 @@
   {
    "id": "link-2447",
    "from": "2026-11-07-4",
+   "to": "2026-11-09-2",
+   "type": "related",
+   "label": "関連: Anthropic · Anthropic",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2448",
+   "from": "2026-11-07-4",
    "to": "2026-11-10-2",
    "type": "causes",
    "label": "因果: Anthropic · Anthropic",
@@ -26759,7 +26933,7 @@
    "note": ""
   },
   {
-   "id": "link-2448",
+   "id": "link-2449",
    "from": "2026-11-07-4",
    "to": "2026-11-11-2",
    "type": "related",
@@ -26769,7 +26943,7 @@
    "note": ""
   },
   {
-   "id": "link-2449",
+   "id": "link-2450",
    "from": "2026-11-07-4",
    "to": "2026-11-12-1",
    "type": "related",
@@ -26779,7 +26953,7 @@
    "note": ""
   },
   {
-   "id": "link-2450",
+   "id": "link-2451",
    "from": "2026-11-07-4",
    "to": "2026-11-12-2",
    "type": "related",
@@ -26789,7 +26963,7 @@
    "note": ""
   },
   {
-   "id": "link-2451",
+   "id": "link-2452",
    "from": "2026-11-07-4",
    "to": "2026-11-12-4",
    "type": "related",
@@ -26799,7 +26973,7 @@
    "note": ""
   },
   {
-   "id": "link-2452",
+   "id": "link-2453",
    "from": "2026-11-07-4",
    "to": "2026-11-12-5",
    "type": "related",
@@ -26809,7 +26983,7 @@
    "note": ""
   },
   {
-   "id": "link-2455",
+   "id": "link-2456",
    "from": "2026-11-07-4",
    "to": "2026-11-20-1",
    "type": "related",
@@ -26819,7 +26993,7 @@
    "note": ""
   },
   {
-   "id": "link-2457",
+   "id": "link-2458",
    "from": "2026-11-07-5",
    "to": "2026-11-08-4",
    "type": "related",
@@ -26829,7 +27003,7 @@
    "note": ""
   },
   {
-   "id": "link-2458",
+   "id": "link-2459",
    "from": "2026-11-07-5",
    "to": "2026-11-10-3",
    "type": "related",
@@ -26839,7 +27013,7 @@
    "note": ""
   },
   {
-   "id": "link-2459",
+   "id": "link-2460",
    "from": "2026-11-07-5",
    "to": "2026-11-11-1",
    "type": "related",
@@ -26849,7 +27023,7 @@
    "note": ""
   },
   {
-   "id": "link-2460",
+   "id": "link-2461",
    "from": "2026-11-07-5",
    "to": "2026-11-11-2",
    "type": "related",
@@ -26859,7 +27033,7 @@
    "note": ""
   },
   {
-   "id": "link-2461",
+   "id": "link-2462",
    "from": "2026-11-07-5",
    "to": "2026-11-14-2",
    "type": "related",
@@ -26869,7 +27043,7 @@
    "note": ""
   },
   {
-   "id": "link-2462",
+   "id": "link-2463",
    "from": "2026-11-07-5",
    "to": "2026-11-14-5",
    "type": "related",
@@ -26879,7 +27053,7 @@
    "note": ""
   },
   {
-   "id": "link-2463",
+   "id": "link-2464",
    "from": "2026-11-07-5",
    "to": "2026-11-18-3",
    "type": "related",
@@ -26889,7 +27063,7 @@
    "note": ""
   },
   {
-   "id": "link-2464",
+   "id": "link-2465",
    "from": "2026-11-07-7",
    "to": "2026-11-13-5",
    "type": "related",
@@ -26899,7 +27073,7 @@
    "note": ""
   },
   {
-   "id": "link-2465",
+   "id": "link-2466",
    "from": "2026-11-07-7",
    "to": "2026-11-14-4",
    "type": "related",
@@ -26909,7 +27083,7 @@
    "note": ""
   },
   {
-   "id": "link-2466",
+   "id": "link-2467",
    "from": "2026-11-07-7",
    "to": "2026-11-14-5",
    "type": "related",
@@ -26919,7 +27093,7 @@
    "note": ""
   },
   {
-   "id": "link-2469",
+   "id": "link-2470",
    "from": "2026-11-08-1",
    "to": "2026-11-08-8",
    "type": "same_arc",
@@ -26929,7 +27103,7 @@
    "note": ""
   },
   {
-   "id": "link-2470",
+   "id": "link-2471",
    "from": "2026-11-08-1",
    "to": "2026-11-09-3",
    "type": "related",
@@ -26939,7 +27113,7 @@
    "note": ""
   },
   {
-   "id": "link-2471",
+   "id": "link-2472",
    "from": "2026-11-08-1",
    "to": "2026-11-10-5",
    "type": "causes",
@@ -26949,7 +27123,7 @@
    "note": ""
   },
   {
-   "id": "link-2472",
+   "id": "link-2473",
    "from": "2026-11-08-1",
    "to": "2026-11-11-4",
    "type": "related",
@@ -26959,7 +27133,7 @@
    "note": ""
   },
   {
-   "id": "link-2473",
+   "id": "link-2474",
    "from": "2026-11-08-1",
    "to": "2026-11-12-1",
    "type": "related",
@@ -26969,7 +27143,7 @@
    "note": ""
   },
   {
-   "id": "link-2474",
+   "id": "link-2475",
    "from": "2026-11-08-1",
    "to": "2026-11-13-2",
    "type": "related",
@@ -26979,7 +27153,7 @@
    "note": ""
   },
   {
-   "id": "link-2475",
+   "id": "link-2476",
    "from": "2026-11-08-1",
    "to": "2026-11-14-1",
    "type": "related",
@@ -26989,7 +27163,7 @@
    "note": ""
   },
   {
-   "id": "link-2476",
+   "id": "link-2477",
    "from": "2026-11-08-1",
    "to": "2026-11-15-2",
    "type": "related",
@@ -26999,7 +27173,7 @@
    "note": ""
   },
   {
-   "id": "link-2477",
+   "id": "link-2478",
    "from": "2026-11-08-2",
    "to": "2026-11-08-5",
    "type": "related",
@@ -27009,7 +27183,7 @@
    "note": ""
   },
   {
-   "id": "link-2478",
+   "id": "link-2479",
    "from": "2026-11-08-2",
    "to": "2026-11-09-2",
    "type": "related",
@@ -27019,7 +27193,7 @@
    "note": ""
   },
   {
-   "id": "link-2479",
+   "id": "link-2480",
    "from": "2026-11-08-2",
    "to": "2026-11-10-2",
    "type": "related",
@@ -27029,7 +27203,7 @@
    "note": ""
   },
   {
-   "id": "link-2480",
+   "id": "link-2481",
    "from": "2026-11-08-2",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27039,7 +27213,7 @@
    "note": ""
   },
   {
-   "id": "link-2481",
+   "id": "link-2482",
    "from": "2026-11-08-2",
    "to": "2026-11-12-1",
    "type": "related",
@@ -27049,7 +27223,7 @@
    "note": ""
   },
   {
-   "id": "link-2482",
+   "id": "link-2483",
    "from": "2026-11-08-2",
    "to": "2026-11-12-2",
    "type": "related",
@@ -27059,7 +27233,7 @@
    "note": ""
   },
   {
-   "id": "link-2483",
+   "id": "link-2484",
    "from": "2026-11-08-2",
    "to": "2026-11-12-4",
    "type": "related",
@@ -27069,7 +27243,7 @@
    "note": ""
   },
   {
-   "id": "link-2484",
+   "id": "link-2485",
    "from": "2026-11-08-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -27079,7 +27253,7 @@
    "note": ""
   },
   {
-   "id": "link-2487",
+   "id": "link-2488",
    "from": "2026-11-08-2",
    "to": "2026-11-15-3",
    "type": "related",
@@ -27089,7 +27263,7 @@
    "note": ""
   },
   {
-   "id": "link-2488",
+   "id": "link-2489",
    "from": "2026-11-08-2",
    "to": "2026-11-15-4",
    "type": "related",
@@ -27099,7 +27273,7 @@
    "note": ""
   },
   {
-   "id": "link-2490",
+   "id": "link-2491",
    "from": "2026-11-08-3",
    "to": "2026-11-08-6",
    "type": "causes",
@@ -27109,7 +27283,7 @@
    "note": ""
   },
   {
-   "id": "link-2491",
+   "id": "link-2492",
    "from": "2026-11-08-3",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27119,7 +27293,7 @@
    "note": ""
   },
   {
-   "id": "link-2492",
+   "id": "link-2493",
    "from": "2026-11-08-3",
    "to": "2026-11-12-1",
    "type": "related",
@@ -27129,7 +27303,7 @@
    "note": ""
   },
   {
-   "id": "link-2493",
+   "id": "link-2494",
    "from": "2026-11-08-4",
    "to": "2026-11-09-2",
    "type": "related",
@@ -27139,7 +27313,7 @@
    "note": ""
   },
   {
-   "id": "link-2494",
+   "id": "link-2495",
    "from": "2026-11-08-4",
    "to": "2026-11-10-3",
    "type": "related",
@@ -27149,7 +27323,7 @@
    "note": ""
   },
   {
-   "id": "link-2495",
+   "id": "link-2496",
    "from": "2026-11-08-4",
    "to": "2026-11-11-1",
    "type": "related",
@@ -27159,7 +27333,7 @@
    "note": ""
   },
   {
-   "id": "link-2496",
+   "id": "link-2497",
    "from": "2026-11-08-4",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27169,7 +27343,7 @@
    "note": ""
   },
   {
-   "id": "link-2497",
+   "id": "link-2498",
    "from": "2026-11-08-4",
    "to": "2026-11-14-2",
    "type": "related",
@@ -27179,7 +27353,7 @@
    "note": ""
   },
   {
-   "id": "link-2498",
+   "id": "link-2499",
    "from": "2026-11-08-4",
    "to": "2026-11-14-5",
    "type": "related",
@@ -27189,7 +27363,7 @@
    "note": ""
   },
   {
-   "id": "link-2499",
+   "id": "link-2500",
    "from": "2026-11-08-4",
    "to": "2026-11-15-4",
    "type": "related",
@@ -27199,7 +27373,7 @@
    "note": ""
   },
   {
-   "id": "link-2500",
+   "id": "link-2501",
    "from": "2026-11-08-5",
    "to": "2026-11-09-2",
    "type": "related",
@@ -27209,7 +27383,7 @@
    "note": ""
   },
   {
-   "id": "link-2501",
+   "id": "link-2502",
    "from": "2026-11-08-5",
    "to": "2026-11-09-3",
    "type": "related",
@@ -27219,7 +27393,7 @@
    "note": ""
   },
   {
-   "id": "link-2502",
+   "id": "link-2503",
    "from": "2026-11-08-5",
    "to": "2026-11-10-2",
    "type": "related",
@@ -27229,7 +27403,7 @@
    "note": ""
   },
   {
-   "id": "link-2503",
+   "id": "link-2504",
    "from": "2026-11-08-5",
    "to": "2026-11-12-1",
    "type": "related",
@@ -27239,7 +27413,7 @@
    "note": ""
   },
   {
-   "id": "link-2504",
+   "id": "link-2505",
    "from": "2026-11-08-5",
    "to": "2026-11-12-2",
    "type": "related",
@@ -27249,7 +27423,7 @@
    "note": ""
   },
   {
-   "id": "link-2505",
+   "id": "link-2506",
    "from": "2026-11-08-5",
    "to": "2026-11-12-4",
    "type": "related",
@@ -27259,7 +27433,7 @@
    "note": ""
   },
   {
-   "id": "link-2506",
+   "id": "link-2507",
    "from": "2026-11-08-5",
    "to": "2026-11-12-5",
    "type": "related",
@@ -27269,7 +27443,7 @@
    "note": ""
   },
   {
-   "id": "link-2507",
+   "id": "link-2508",
    "from": "2026-11-08-5",
    "to": "2026-11-12-7",
    "type": "causes",
@@ -27279,7 +27453,7 @@
    "note": ""
   },
   {
-   "id": "link-2508",
+   "id": "link-2509",
    "from": "2026-11-08-5",
    "to": "2026-11-13-6",
    "type": "leads_to",
@@ -27289,7 +27463,7 @@
    "note": ""
   },
   {
-   "id": "link-2509",
+   "id": "link-2510",
    "from": "2026-11-08-5",
    "to": "2026-11-15-3",
    "type": "related",
@@ -27299,7 +27473,7 @@
    "note": ""
   },
   {
-   "id": "link-2510",
+   "id": "link-2511",
    "from": "2026-11-08-5",
    "to": "2026-11-20-1",
    "type": "related",
@@ -27309,7 +27483,7 @@
    "note": ""
   },
   {
-   "id": "link-2513",
+   "id": "link-2514",
    "from": "2026-11-08-6",
    "to": "2026-11-10-1",
    "type": "related",
@@ -27319,7 +27493,7 @@
    "note": ""
   },
   {
-   "id": "link-2515",
+   "id": "link-2516",
    "from": "2026-11-08-6",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27329,7 +27503,7 @@
    "note": ""
   },
   {
-   "id": "link-2516",
+   "id": "link-2517",
    "from": "2026-11-08-6",
    "to": "2026-11-11-3",
    "type": "related",
@@ -27339,7 +27513,7 @@
    "note": ""
   },
   {
-   "id": "link-2517",
+   "id": "link-2518",
    "from": "2026-11-08-6",
    "to": "2026-11-12-1",
    "type": "related",
@@ -27349,7 +27523,7 @@
    "note": ""
   },
   {
-   "id": "link-2518",
+   "id": "link-2519",
    "from": "2026-11-08-6",
    "to": "2026-11-12-3",
    "type": "related",
@@ -27359,7 +27533,7 @@
    "note": ""
   },
   {
-   "id": "link-2519",
+   "id": "link-2520",
    "from": "2026-11-08-6",
    "to": "2026-11-12-5",
    "type": "related",
@@ -27369,7 +27543,7 @@
    "note": ""
   },
   {
-   "id": "link-2521",
+   "id": "link-2522",
    "from": "2026-11-08-6",
    "to": "2026-11-13-1",
    "type": "related",
@@ -27379,7 +27553,7 @@
    "note": ""
   },
   {
-   "id": "link-2522",
+   "id": "link-2523",
    "from": "2026-11-08-6",
    "to": "2026-11-13-4",
    "type": "related",
@@ -27389,7 +27563,7 @@
    "note": ""
   },
   {
-   "id": "link-2524",
+   "id": "link-2525",
    "from": "2026-11-08-6",
    "to": "2026-11-15-1",
    "type": "related",
@@ -27399,7 +27573,7 @@
    "note": ""
   },
   {
-   "id": "link-2525",
+   "id": "link-2526",
    "from": "2026-11-08-7",
    "to": "2026-11-11-4",
    "type": "related",
@@ -27409,7 +27583,7 @@
    "note": ""
   },
   {
-   "id": "link-2552",
+   "id": "link-2553",
    "from": "2026-11-09-1",
    "to": "2026-11-13-5",
    "type": "related",
@@ -27419,7 +27593,7 @@
    "note": ""
   },
   {
-   "id": "link-2553",
+   "id": "link-2554",
    "from": "2026-11-09-1",
    "to": "2026-11-16-4",
    "type": "related",
@@ -27429,7 +27603,7 @@
    "note": ""
   },
   {
-   "id": "link-2555",
+   "id": "link-2556",
    "from": "2026-11-09-1",
    "to": "2026-11-22-5",
    "type": "related",
@@ -27439,7 +27613,7 @@
    "note": ""
   },
   {
-   "id": "link-2556",
+   "id": "link-2557",
    "from": "2026-11-09-2",
    "to": "2026-11-10-2",
    "type": "related",
@@ -27449,7 +27623,7 @@
    "note": ""
   },
   {
-   "id": "link-2557",
+   "id": "link-2558",
    "from": "2026-11-09-2",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27459,7 +27633,7 @@
    "note": ""
   },
   {
-   "id": "link-2558",
+   "id": "link-2559",
    "from": "2026-11-09-2",
    "to": "2026-11-12-1",
    "type": "related",
@@ -27469,7 +27643,7 @@
    "note": ""
   },
   {
-   "id": "link-2559",
+   "id": "link-2560",
    "from": "2026-11-09-2",
    "to": "2026-11-12-2",
    "type": "related",
@@ -27479,7 +27653,7 @@
    "note": ""
   },
   {
-   "id": "link-2560",
+   "id": "link-2561",
    "from": "2026-11-09-2",
    "to": "2026-11-12-4",
    "type": "related",
@@ -27489,7 +27663,7 @@
    "note": ""
   },
   {
-   "id": "link-2561",
+   "id": "link-2562",
    "from": "2026-11-09-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -27499,7 +27673,7 @@
    "note": ""
   },
   {
-   "id": "link-2564",
+   "id": "link-2565",
    "from": "2026-11-09-2",
    "to": "2026-11-15-3",
    "type": "related",
@@ -27509,7 +27683,7 @@
    "note": ""
   },
   {
-   "id": "link-2566",
+   "id": "link-2567",
    "from": "2026-11-09-3",
    "to": "2026-11-10-5",
    "type": "related",
@@ -27519,7 +27693,7 @@
    "note": ""
   },
   {
-   "id": "link-2567",
+   "id": "link-2568",
    "from": "2026-11-09-3",
    "to": "2026-11-11-4",
    "type": "related",
@@ -27529,7 +27703,7 @@
    "note": ""
   },
   {
-   "id": "link-2568",
+   "id": "link-2569",
    "from": "2026-11-09-3",
    "to": "2026-11-12-1",
    "type": "related",
@@ -27539,7 +27713,7 @@
    "note": ""
   },
   {
-   "id": "link-2569",
+   "id": "link-2570",
    "from": "2026-11-09-3",
    "to": "2026-11-13-2",
    "type": "related",
@@ -27549,7 +27723,7 @@
    "note": ""
   },
   {
-   "id": "link-2570",
+   "id": "link-2571",
    "from": "2026-11-09-3",
    "to": "2026-11-14-1",
    "type": "related",
@@ -27559,7 +27733,7 @@
    "note": ""
   },
   {
-   "id": "link-2571",
+   "id": "link-2572",
    "from": "2026-11-09-3",
    "to": "2026-11-15-2",
    "type": "related",
@@ -27569,7 +27743,7 @@
    "note": ""
   },
   {
-   "id": "link-2572",
+   "id": "link-2573",
    "from": "2026-11-09-3",
    "to": "2026-11-22-4",
    "type": "related",
@@ -27579,7 +27753,7 @@
    "note": ""
   },
   {
-   "id": "link-2573",
+   "id": "link-2574",
    "from": "2026-11-09-4",
    "to": "2026-11-09-5",
    "type": "related",
@@ -27589,7 +27763,7 @@
    "note": ""
   },
   {
-   "id": "link-2574",
+   "id": "link-2575",
    "from": "2026-11-09-4",
    "to": "2026-11-10-5",
    "type": "related",
@@ -27599,7 +27773,7 @@
    "note": ""
   },
   {
-   "id": "link-2575",
+   "id": "link-2576",
    "from": "2026-11-09-5",
    "to": "2026-11-10-4",
    "type": "related",
@@ -27609,7 +27783,7 @@
    "note": ""
   },
   {
-   "id": "link-2576",
+   "id": "link-2577",
    "from": "2026-11-09-5",
    "to": "2026-11-11-5",
    "type": "related",
@@ -27619,7 +27793,7 @@
    "note": ""
   },
   {
-   "id": "link-2577",
+   "id": "link-2578",
    "from": "2026-11-10-1",
    "to": "2026-11-10-7",
    "type": "same_arc",
@@ -27629,7 +27803,7 @@
    "note": ""
   },
   {
-   "id": "link-2578",
+   "id": "link-2579",
    "from": "2026-11-10-1",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27639,7 +27813,7 @@
    "note": ""
   },
   {
-   "id": "link-2579",
+   "id": "link-2580",
    "from": "2026-11-10-1",
    "to": "2026-11-12-3",
    "type": "causes",
@@ -27649,7 +27823,7 @@
    "note": ""
   },
   {
-   "id": "link-2580",
+   "id": "link-2581",
    "from": "2026-11-10-1",
    "to": "2026-11-12-5",
    "type": "related",
@@ -27659,7 +27833,7 @@
    "note": ""
   },
   {
-   "id": "link-2582",
+   "id": "link-2583",
    "from": "2026-11-10-1",
    "to": "2026-11-13-1",
    "type": "causes",
@@ -27669,7 +27843,7 @@
    "note": ""
   },
   {
-   "id": "link-2583",
+   "id": "link-2584",
    "from": "2026-11-10-1",
    "to": "2026-11-13-4",
    "type": "related",
@@ -27679,19 +27853,9 @@
    "note": ""
   },
   {
-   "id": "link-2585",
-   "from": "2026-11-10-1",
-   "to": "2026-11-15-1",
-   "type": "causes",
-   "label": "因果: Jensen Huang・NVIDIA · NVIDIA/governance",
-   "confidence": 0.5,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2586",
    "from": "2026-11-10-1",
-   "to": "2026-11-16-1",
+   "to": "2026-11-15-1",
    "type": "causes",
    "label": "因果: Jensen Huang・NVIDIA · NVIDIA/governance",
    "confidence": 0.5,
@@ -27701,6 +27865,16 @@
   {
    "id": "link-2587",
    "from": "2026-11-10-1",
+   "to": "2026-11-16-1",
+   "type": "causes",
+   "label": "因果: Jensen Huang・NVIDIA · NVIDIA/governance",
+   "confidence": 0.5,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2588",
+   "from": "2026-11-10-1",
    "to": "2026-11-16-3",
    "type": "related",
    "label": "関連: NVIDIA",
@@ -27709,7 +27883,7 @@
    "note": ""
   },
   {
-   "id": "link-2588",
+   "id": "link-2589",
    "from": "2026-11-10-1",
    "to": "2026-11-17-1",
    "type": "causes",
@@ -27719,7 +27893,7 @@
    "note": ""
   },
   {
-   "id": "link-2590",
+   "id": "link-2591",
    "from": "2026-11-10-1",
    "to": "2026-11-18-1",
    "type": "related",
@@ -27729,7 +27903,7 @@
    "note": ""
   },
   {
-   "id": "link-2592",
+   "id": "link-2593",
    "from": "2026-11-10-1",
    "to": "2026-11-19-2",
    "type": "related",
@@ -27739,7 +27913,7 @@
    "note": ""
   },
   {
-   "id": "link-2594",
+   "id": "link-2595",
    "from": "2026-11-10-1",
    "to": "2026-11-21-4",
    "type": "related",
@@ -27749,7 +27923,7 @@
    "note": ""
   },
   {
-   "id": "link-2596",
+   "id": "link-2597",
    "from": "2026-11-10-1",
    "to": "2026-11-23-2",
    "type": "related",
@@ -27759,7 +27933,7 @@
    "note": ""
   },
   {
-   "id": "link-2597",
+   "id": "link-2598",
    "from": "2026-11-10-1",
    "to": "2026-11-24-1",
    "type": "related",
@@ -27769,7 +27943,7 @@
    "note": ""
   },
   {
-   "id": "link-2598",
+   "id": "link-2599",
    "from": "2026-11-10-1",
    "to": "2026-11-24-2",
    "type": "related",
@@ -27779,7 +27953,7 @@
    "note": ""
   },
   {
-   "id": "link-2600",
+   "id": "link-2601",
    "from": "2026-11-10-2",
    "to": "2026-11-11-1",
    "type": "related",
@@ -27789,7 +27963,7 @@
    "note": ""
   },
   {
-   "id": "link-2601",
+   "id": "link-2602",
    "from": "2026-11-10-2",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27799,7 +27973,7 @@
    "note": ""
   },
   {
-   "id": "link-2602",
+   "id": "link-2603",
    "from": "2026-11-10-2",
    "to": "2026-11-12-1",
    "type": "related",
@@ -27809,7 +27983,7 @@
    "note": ""
   },
   {
-   "id": "link-2603",
+   "id": "link-2604",
    "from": "2026-11-10-2",
    "to": "2026-11-12-2",
    "type": "related",
@@ -27819,7 +27993,7 @@
    "note": ""
   },
   {
-   "id": "link-2604",
+   "id": "link-2605",
    "from": "2026-11-10-2",
    "to": "2026-11-12-4",
    "type": "related",
@@ -27829,7 +28003,7 @@
    "note": ""
   },
   {
-   "id": "link-2605",
+   "id": "link-2606",
    "from": "2026-11-10-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -27839,7 +28013,7 @@
    "note": ""
   },
   {
-   "id": "link-2608",
+   "id": "link-2609",
    "from": "2026-11-10-2",
    "to": "2026-11-15-3",
    "type": "related",
@@ -27849,7 +28023,7 @@
    "note": ""
   },
   {
-   "id": "link-2609",
+   "id": "link-2610",
    "from": "2026-11-10-2",
    "to": "2026-11-19-1",
    "type": "related",
@@ -27859,7 +28033,7 @@
    "note": ""
   },
   {
-   "id": "link-2610",
+   "id": "link-2611",
    "from": "2026-11-10-2",
    "to": "2026-11-20-1",
    "type": "related",
@@ -27869,7 +28043,7 @@
    "note": ""
   },
   {
-   "id": "link-2613",
+   "id": "link-2614",
    "from": "2026-11-10-3",
    "to": "2026-11-11-1",
    "type": "causes",
@@ -27879,7 +28053,7 @@
    "note": ""
   },
   {
-   "id": "link-2614",
+   "id": "link-2615",
    "from": "2026-11-10-3",
    "to": "2026-11-11-2",
    "type": "related",
@@ -27889,19 +28063,9 @@
    "note": ""
   },
   {
-   "id": "link-2615",
+   "id": "link-2616",
    "from": "2026-11-10-3",
    "to": "2026-11-12-5",
-   "type": "related",
-   "label": "関連: AI-chip",
-   "confidence": 0.25,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-2617",
-   "from": "2026-11-10-3",
-   "to": "2026-11-13-1",
    "type": "related",
    "label": "関連: AI-chip",
    "confidence": 0.25,
@@ -27911,6 +28075,16 @@
   {
    "id": "link-2618",
    "from": "2026-11-10-3",
+   "to": "2026-11-13-1",
+   "type": "related",
+   "label": "関連: AI-chip",
+   "confidence": 0.25,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2619",
+   "from": "2026-11-10-3",
    "to": "2026-11-13-3",
    "type": "related",
    "label": "関連: AI-chip",
@@ -27919,7 +28093,7 @@
    "note": ""
   },
   {
-   "id": "link-2620",
+   "id": "link-2621",
    "from": "2026-11-10-3",
    "to": "2026-11-14-2",
    "type": "related",
@@ -27929,19 +28103,9 @@
    "note": ""
   },
   {
-   "id": "link-2621",
-   "from": "2026-11-10-3",
-   "to": "2026-11-14-5",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2622",
    "from": "2026-11-10-3",
-   "to": "2026-11-15-4",
+   "to": "2026-11-14-5",
    "type": "related",
    "label": "関連: Google",
    "confidence": 0.28,
@@ -27951,7 +28115,7 @@
   {
    "id": "link-2623",
    "from": "2026-11-10-3",
-   "to": "2026-11-17-5",
+   "to": "2026-11-15-4",
    "type": "related",
    "label": "関連: Google",
    "confidence": 0.28,
@@ -27961,6 +28125,16 @@
   {
    "id": "link-2624",
    "from": "2026-11-10-3",
+   "to": "2026-11-17-5",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2625",
+   "from": "2026-11-10-3",
    "to": "2026-11-18-3",
    "type": "related",
    "label": "関連: Google · Google",
@@ -27969,7 +28143,7 @@
    "note": ""
   },
   {
-   "id": "link-2625",
+   "id": "link-2626",
    "from": "2026-11-10-4",
    "to": "2026-11-10-5",
    "type": "related",
@@ -27979,7 +28153,7 @@
    "note": ""
   },
   {
-   "id": "link-2626",
+   "id": "link-2627",
    "from": "2026-11-10-4",
    "to": "2026-11-11-5",
    "type": "related",
@@ -27989,7 +28163,7 @@
    "note": ""
   },
   {
-   "id": "link-2627",
+   "id": "link-2628",
    "from": "2026-11-10-4",
    "to": "2026-11-13-4",
    "type": "related",
@@ -27999,7 +28173,7 @@
    "note": ""
   },
   {
-   "id": "link-2628",
+   "id": "link-2629",
    "from": "2026-11-10-4",
    "to": "2026-11-13-5",
    "type": "related",
@@ -28009,7 +28183,7 @@
    "note": ""
   },
   {
-   "id": "link-2629",
+   "id": "link-2630",
    "from": "2026-11-10-4",
    "to": "2026-11-14-3",
    "type": "related",
@@ -28019,7 +28193,7 @@
    "note": ""
   },
   {
-   "id": "link-2630",
+   "id": "link-2631",
    "from": "2026-11-10-4",
    "to": "2026-11-16-2",
    "type": "related",
@@ -28029,7 +28203,7 @@
    "note": ""
   },
   {
-   "id": "link-2631",
+   "id": "link-2632",
    "from": "2026-11-10-5",
    "to": "2026-11-11-4",
    "type": "related",
@@ -28039,7 +28213,7 @@
    "note": ""
   },
   {
-   "id": "link-2632",
+   "id": "link-2633",
    "from": "2026-11-10-5",
    "to": "2026-11-12-1",
    "type": "related",
@@ -28049,7 +28223,7 @@
    "note": ""
   },
   {
-   "id": "link-2633",
+   "id": "link-2634",
    "from": "2026-11-10-5",
    "to": "2026-11-12-2",
    "type": "related",
@@ -28059,7 +28233,7 @@
    "note": ""
   },
   {
-   "id": "link-2634",
+   "id": "link-2635",
    "from": "2026-11-10-5",
    "to": "2026-11-13-2",
    "type": "related",
@@ -28069,7 +28243,7 @@
    "note": ""
   },
   {
-   "id": "link-2635",
+   "id": "link-2636",
    "from": "2026-11-10-5",
    "to": "2026-11-14-1",
    "type": "related",
@@ -28079,7 +28253,7 @@
    "note": ""
   },
   {
-   "id": "link-2636",
+   "id": "link-2637",
    "from": "2026-11-10-5",
    "to": "2026-11-15-2",
    "type": "related",
@@ -28089,7 +28263,7 @@
    "note": ""
   },
   {
-   "id": "link-2637",
+   "id": "link-2638",
    "from": "2026-11-10-5",
    "to": "2026-11-17-2",
    "type": "related",
@@ -28099,7 +28273,7 @@
    "note": ""
   },
   {
-   "id": "link-2641",
+   "id": "link-2642",
    "from": "2026-11-10-7",
    "to": "2026-11-12-6",
    "type": "causes",
@@ -28109,7 +28283,7 @@
    "note": ""
   },
   {
-   "id": "link-2645",
+   "id": "link-2646",
    "from": "2026-11-10-7",
    "to": "2026-11-13-7",
    "type": "causes",
@@ -28119,7 +28293,7 @@
    "note": ""
   },
   {
-   "id": "link-2653",
+   "id": "link-2654",
    "from": "2026-11-11-1",
    "to": "2026-11-11-2",
    "type": "related",
@@ -28129,7 +28303,7 @@
    "note": ""
   },
   {
-   "id": "link-2654",
+   "id": "link-2655",
    "from": "2026-11-11-1",
    "to": "2026-11-14-2",
    "type": "causes",
@@ -28139,7 +28313,7 @@
    "note": ""
   },
   {
-   "id": "link-2655",
+   "id": "link-2656",
    "from": "2026-11-11-1",
    "to": "2026-11-14-5",
    "type": "related",
@@ -28149,19 +28323,9 @@
    "note": ""
   },
   {
-   "id": "link-2656",
-   "from": "2026-11-11-1",
-   "to": "2026-11-15-4",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2657",
    "from": "2026-11-11-1",
-   "to": "2026-11-17-5",
+   "to": "2026-11-15-4",
    "type": "related",
    "label": "関連: Google",
    "confidence": 0.28,
@@ -28171,6 +28335,16 @@
   {
    "id": "link-2658",
    "from": "2026-11-11-1",
+   "to": "2026-11-17-5",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2659",
+   "from": "2026-11-11-1",
    "to": "2026-11-18-3",
    "type": "related",
    "label": "関連: Google · Google",
@@ -28179,7 +28353,7 @@
    "note": ""
   },
   {
-   "id": "link-2659",
+   "id": "link-2660",
    "from": "2026-11-11-1",
    "to": "2026-11-18-4",
    "type": "related",
@@ -28189,7 +28363,7 @@
    "note": ""
   },
   {
-   "id": "link-2660",
+   "id": "link-2661",
    "from": "2026-11-11-2",
    "to": "2026-11-12-1",
    "type": "causes",
@@ -28199,7 +28373,7 @@
    "note": ""
   },
   {
-   "id": "link-2661",
+   "id": "link-2662",
    "from": "2026-11-11-2",
    "to": "2026-11-12-2",
    "type": "related",
@@ -28209,7 +28383,7 @@
    "note": ""
   },
   {
-   "id": "link-2662",
+   "id": "link-2663",
    "from": "2026-11-11-2",
    "to": "2026-11-12-3",
    "type": "related",
@@ -28219,7 +28393,7 @@
    "note": ""
   },
   {
-   "id": "link-2663",
+   "id": "link-2664",
    "from": "2026-11-11-2",
    "to": "2026-11-12-4",
    "type": "related",
@@ -28229,7 +28403,7 @@
    "note": ""
   },
   {
-   "id": "link-2664",
+   "id": "link-2665",
    "from": "2026-11-11-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -28239,7 +28413,7 @@
    "note": ""
   },
   {
-   "id": "link-2667",
+   "id": "link-2668",
    "from": "2026-11-11-2",
    "to": "2026-11-13-1",
    "type": "related",
@@ -28249,7 +28423,7 @@
    "note": ""
   },
   {
-   "id": "link-2668",
+   "id": "link-2669",
    "from": "2026-11-11-2",
    "to": "2026-11-13-4",
    "type": "related",
@@ -28259,7 +28433,7 @@
    "note": ""
   },
   {
-   "id": "link-2671",
+   "id": "link-2672",
    "from": "2026-11-11-2",
    "to": "2026-11-14-2",
    "type": "related",
@@ -28269,7 +28443,7 @@
    "note": ""
   },
   {
-   "id": "link-2672",
+   "id": "link-2673",
    "from": "2026-11-11-2",
    "to": "2026-11-14-5",
    "type": "related",
@@ -28279,7 +28453,7 @@
    "note": ""
   },
   {
-   "id": "link-2673",
+   "id": "link-2674",
    "from": "2026-11-11-2",
    "to": "2026-11-15-1",
    "type": "related",
@@ -28289,7 +28463,7 @@
    "note": ""
   },
   {
-   "id": "link-2674",
+   "id": "link-2675",
    "from": "2026-11-11-2",
    "to": "2026-11-15-3",
    "type": "related",
@@ -28299,7 +28473,7 @@
    "note": ""
   },
   {
-   "id": "link-2675",
+   "id": "link-2676",
    "from": "2026-11-11-2",
    "to": "2026-11-15-4",
    "type": "related",
@@ -28309,19 +28483,9 @@
    "note": ""
   },
   {
-   "id": "link-2676",
-   "from": "2026-11-11-2",
-   "to": "2026-11-16-1",
-   "type": "related",
-   "label": "関連: NVIDIA",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2677",
    "from": "2026-11-11-2",
-   "to": "2026-11-16-3",
+   "to": "2026-11-16-1",
    "type": "related",
    "label": "関連: NVIDIA",
    "confidence": 0.26,
@@ -28331,7 +28495,7 @@
   {
    "id": "link-2678",
    "from": "2026-11-11-2",
-   "to": "2026-11-17-1",
+   "to": "2026-11-16-3",
    "type": "related",
    "label": "関連: NVIDIA",
    "confidence": 0.26,
@@ -28341,6 +28505,16 @@
   {
    "id": "link-2679",
    "from": "2026-11-11-2",
+   "to": "2026-11-17-1",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2680",
+   "from": "2026-11-11-2",
    "to": "2026-11-17-4",
    "type": "related",
    "label": "関連: TSMC",
@@ -28349,7 +28523,7 @@
    "note": ""
   },
   {
-   "id": "link-2680",
+   "id": "link-2681",
    "from": "2026-11-11-2",
    "to": "2026-11-17-5",
    "type": "related",
@@ -28359,7 +28533,7 @@
    "note": ""
   },
   {
-   "id": "link-2682",
+   "id": "link-2683",
    "from": "2026-11-11-2",
    "to": "2026-11-18-1",
    "type": "related",
@@ -28369,7 +28543,7 @@
    "note": ""
   },
   {
-   "id": "link-2683",
+   "id": "link-2684",
    "from": "2026-11-11-2",
    "to": "2026-11-18-3",
    "type": "related",
@@ -28379,7 +28553,7 @@
    "note": ""
   },
   {
-   "id": "link-2684",
+   "id": "link-2685",
    "from": "2026-11-11-2",
    "to": "2026-11-18-4",
    "type": "related",
@@ -28389,7 +28563,7 @@
    "note": ""
   },
   {
-   "id": "link-2686",
+   "id": "link-2687",
    "from": "2026-11-11-2",
    "to": "2026-11-20-1",
    "type": "related",
@@ -28399,7 +28573,7 @@
    "note": ""
   },
   {
-   "id": "link-2688",
+   "id": "link-2689",
    "from": "2026-11-11-3",
    "to": "2026-11-11-4",
    "type": "related",
@@ -28409,7 +28583,7 @@
    "note": ""
   },
   {
-   "id": "link-2689",
+   "id": "link-2690",
    "from": "2026-11-11-3",
    "to": "2026-11-12-5",
    "type": "related",
@@ -28419,7 +28593,7 @@
    "note": ""
   },
   {
-   "id": "link-2690",
+   "id": "link-2691",
    "from": "2026-11-11-3",
    "to": "2026-11-13-3",
    "type": "related",
@@ -28429,7 +28603,7 @@
    "note": ""
   },
   {
-   "id": "link-2691",
+   "id": "link-2692",
    "from": "2026-11-11-3",
    "to": "2026-11-14-3",
    "type": "related",
@@ -28439,7 +28613,7 @@
    "note": ""
   },
   {
-   "id": "link-2692",
+   "id": "link-2693",
    "from": "2026-11-11-3",
    "to": "2026-11-18-2",
    "type": "related",
@@ -28449,7 +28623,7 @@
    "note": ""
   },
   {
-   "id": "link-2693",
+   "id": "link-2694",
    "from": "2026-11-11-4",
    "to": "2026-11-11-5",
    "type": "related",
@@ -28459,7 +28633,7 @@
    "note": ""
   },
   {
-   "id": "link-2694",
+   "id": "link-2695",
    "from": "2026-11-11-4",
    "to": "2026-11-12-1",
    "type": "related",
@@ -28469,7 +28643,7 @@
    "note": ""
   },
   {
-   "id": "link-2695",
+   "id": "link-2696",
    "from": "2026-11-11-4",
    "to": "2026-11-13-2",
    "type": "related",
@@ -28479,7 +28653,7 @@
    "note": ""
   },
   {
-   "id": "link-2696",
+   "id": "link-2697",
    "from": "2026-11-11-4",
    "to": "2026-11-14-1",
    "type": "related",
@@ -28489,7 +28663,7 @@
    "note": ""
   },
   {
-   "id": "link-2697",
+   "id": "link-2698",
    "from": "2026-11-11-4",
    "to": "2026-11-14-3",
    "type": "related",
@@ -28499,7 +28673,7 @@
    "note": ""
   },
   {
-   "id": "link-2698",
+   "id": "link-2699",
    "from": "2026-11-11-4",
    "to": "2026-11-15-2",
    "type": "related",
@@ -28509,7 +28683,7 @@
    "note": ""
   },
   {
-   "id": "link-2699",
+   "id": "link-2700",
    "from": "2026-11-11-4",
    "to": "2026-11-17-2",
    "type": "related",
@@ -28519,7 +28693,7 @@
    "note": ""
   },
   {
-   "id": "link-2700",
+   "id": "link-2701",
    "from": "2026-11-11-5",
    "to": "2026-11-13-5",
    "type": "related",
@@ -28529,7 +28703,7 @@
    "note": ""
   },
   {
-   "id": "link-2701",
+   "id": "link-2702",
    "from": "2026-11-12-1",
    "to": "2026-11-12-2",
    "type": "related",
@@ -28539,7 +28713,7 @@
    "note": ""
   },
   {
-   "id": "link-2702",
+   "id": "link-2703",
    "from": "2026-11-12-1",
    "to": "2026-11-12-4",
    "type": "causes",
@@ -28549,7 +28723,7 @@
    "note": ""
   },
   {
-   "id": "link-2703",
+   "id": "link-2704",
    "from": "2026-11-12-1",
    "to": "2026-11-12-5",
    "type": "related",
@@ -28559,7 +28733,7 @@
    "note": ""
   },
   {
-   "id": "link-2704",
+   "id": "link-2705",
    "from": "2026-11-12-1",
    "to": "2026-11-12-7",
    "type": "same_arc",
@@ -28569,7 +28743,7 @@
    "note": ""
   },
   {
-   "id": "link-2705",
+   "id": "link-2706",
    "from": "2026-11-12-1",
    "to": "2026-11-13-2",
    "type": "related",
@@ -28579,7 +28753,7 @@
    "note": ""
   },
   {
-   "id": "link-2707",
+   "id": "link-2708",
    "from": "2026-11-12-1",
    "to": "2026-11-14-1",
    "type": "related",
@@ -28589,7 +28763,7 @@
    "note": ""
   },
   {
-   "id": "link-2708",
+   "id": "link-2709",
    "from": "2026-11-12-1",
    "to": "2026-11-15-2",
    "type": "related",
@@ -28599,7 +28773,7 @@
    "note": ""
   },
   {
-   "id": "link-2709",
+   "id": "link-2710",
    "from": "2026-11-12-1",
    "to": "2026-11-15-3",
    "type": "related",
@@ -28609,7 +28783,7 @@
    "note": ""
   },
   {
-   "id": "link-2710",
+   "id": "link-2711",
    "from": "2026-11-12-1",
    "to": "2026-11-17-2",
    "type": "related",
@@ -28619,7 +28793,7 @@
    "note": ""
   },
   {
-   "id": "link-2711",
+   "id": "link-2712",
    "from": "2026-11-12-1",
    "to": "2026-11-17-4",
    "type": "related",
@@ -28629,7 +28803,7 @@
    "note": ""
   },
   {
-   "id": "link-2712",
+   "id": "link-2713",
    "from": "2026-11-12-1",
    "to": "2026-11-19-1",
    "type": "related",
@@ -28639,7 +28813,7 @@
    "note": ""
   },
   {
-   "id": "link-2715",
+   "id": "link-2716",
    "from": "2026-11-12-1",
    "to": "2026-11-23-1",
    "type": "related",
@@ -28649,7 +28823,7 @@
    "note": ""
   },
   {
-   "id": "link-2717",
+   "id": "link-2718",
    "from": "2026-11-12-2",
    "to": "2026-11-12-4",
    "type": "same_arc",
@@ -28659,7 +28833,7 @@
    "note": ""
   },
   {
-   "id": "link-2718",
+   "id": "link-2719",
    "from": "2026-11-12-2",
    "to": "2026-11-12-5",
    "type": "related",
@@ -28669,7 +28843,7 @@
    "note": ""
   },
   {
-   "id": "link-2720",
+   "id": "link-2721",
    "from": "2026-11-12-2",
    "to": "2026-11-13-2",
    "type": "related",
@@ -28679,7 +28853,7 @@
    "note": ""
   },
   {
-   "id": "link-2722",
+   "id": "link-2723",
    "from": "2026-11-12-2",
    "to": "2026-11-15-3",
    "type": "related",
@@ -28689,7 +28863,7 @@
    "note": ""
   },
   {
-   "id": "link-2723",
+   "id": "link-2724",
    "from": "2026-11-12-2",
    "to": "2026-11-19-1",
    "type": "related",
@@ -28699,7 +28873,7 @@
    "note": ""
   },
   {
-   "id": "link-2724",
+   "id": "link-2725",
    "from": "2026-11-12-2",
    "to": "2026-11-19-3",
    "type": "related",
@@ -28709,7 +28883,7 @@
    "note": ""
   },
   {
-   "id": "link-2725",
+   "id": "link-2726",
    "from": "2026-11-12-2",
    "to": "2026-11-19-4",
    "type": "related",
@@ -28719,7 +28893,7 @@
    "note": ""
   },
   {
-   "id": "link-2728",
+   "id": "link-2729",
    "from": "2026-11-12-3",
    "to": "2026-11-12-5",
    "type": "related",
@@ -28729,7 +28903,7 @@
    "note": ""
   },
   {
-   "id": "link-2729",
+   "id": "link-2730",
    "from": "2026-11-12-3",
    "to": "2026-11-12-6",
    "type": "same_arc",
@@ -28739,7 +28913,7 @@
    "note": ""
   },
   {
-   "id": "link-2730",
+   "id": "link-2731",
    "from": "2026-11-12-3",
    "to": "2026-11-13-1",
    "type": "same_arc",
@@ -28749,7 +28923,7 @@
    "note": ""
   },
   {
-   "id": "link-2731",
+   "id": "link-2732",
    "from": "2026-11-12-3",
    "to": "2026-11-13-4",
    "type": "related",
@@ -28759,7 +28933,7 @@
    "note": ""
   },
   {
-   "id": "link-2733",
+   "id": "link-2734",
    "from": "2026-11-12-3",
    "to": "2026-11-15-1",
    "type": "causes",
@@ -28769,7 +28943,7 @@
    "note": ""
   },
   {
-   "id": "link-2734",
+   "id": "link-2735",
    "from": "2026-11-12-3",
    "to": "2026-11-16-1",
    "type": "related",
@@ -28779,7 +28953,7 @@
    "note": ""
   },
   {
-   "id": "link-2735",
+   "id": "link-2736",
    "from": "2026-11-12-3",
    "to": "2026-11-16-3",
    "type": "related",
@@ -28789,7 +28963,7 @@
    "note": ""
   },
   {
-   "id": "link-2736",
+   "id": "link-2737",
    "from": "2026-11-12-3",
    "to": "2026-11-17-1",
    "type": "causes",
@@ -28799,7 +28973,7 @@
    "note": ""
   },
   {
-   "id": "link-2738",
+   "id": "link-2739",
    "from": "2026-11-12-3",
    "to": "2026-11-18-1",
    "type": "related",
@@ -28809,7 +28983,7 @@
    "note": ""
   },
   {
-   "id": "link-2740",
+   "id": "link-2741",
    "from": "2026-11-12-3",
    "to": "2026-11-19-2",
    "type": "causes",
@@ -28819,7 +28993,7 @@
    "note": ""
   },
   {
-   "id": "link-2742",
+   "id": "link-2743",
    "from": "2026-11-12-3",
    "to": "2026-11-21-4",
    "type": "related",
@@ -28829,7 +29003,7 @@
    "note": ""
   },
   {
-   "id": "link-2744",
+   "id": "link-2745",
    "from": "2026-11-12-3",
    "to": "2026-11-24-1",
    "type": "related",
@@ -28839,7 +29013,7 @@
    "note": ""
   },
   {
-   "id": "link-2745",
+   "id": "link-2746",
    "from": "2026-11-12-3",
    "to": "2026-11-26-3",
    "type": "related",
@@ -28849,7 +29023,7 @@
    "note": ""
   },
   {
-   "id": "link-2747",
+   "id": "link-2748",
    "from": "2026-11-12-4",
    "to": "2026-11-12-5",
    "type": "related",
@@ -28859,7 +29033,7 @@
    "note": ""
   },
   {
-   "id": "link-2749",
+   "id": "link-2750",
    "from": "2026-11-12-4",
    "to": "2026-11-13-2",
    "type": "related",
@@ -28869,7 +29043,7 @@
    "note": ""
   },
   {
-   "id": "link-2751",
+   "id": "link-2752",
    "from": "2026-11-12-4",
    "to": "2026-11-14-1",
    "type": "related",
@@ -28879,7 +29053,7 @@
    "note": ""
   },
   {
-   "id": "link-2752",
+   "id": "link-2753",
    "from": "2026-11-12-4",
    "to": "2026-11-15-3",
    "type": "related",
@@ -28889,7 +29063,7 @@
    "note": ""
   },
   {
-   "id": "link-2753",
+   "id": "link-2754",
    "from": "2026-11-12-4",
    "to": "2026-11-19-1",
    "type": "related",
@@ -28899,7 +29073,7 @@
    "note": ""
   },
   {
-   "id": "link-2754",
+   "id": "link-2755",
    "from": "2026-11-12-4",
    "to": "2026-11-22-1",
    "type": "related",
@@ -28909,7 +29083,7 @@
    "note": ""
   },
   {
-   "id": "link-2758",
+   "id": "link-2759",
    "from": "2026-11-12-5",
    "to": "2026-11-13-1",
    "type": "related",
@@ -28919,7 +29093,7 @@
    "note": ""
   },
   {
-   "id": "link-2759",
+   "id": "link-2760",
    "from": "2026-11-12-5",
    "to": "2026-11-13-3",
    "type": "same_arc",
@@ -28929,19 +29103,9 @@
    "note": ""
   },
   {
-   "id": "link-2760",
+   "id": "link-2761",
    "from": "2026-11-12-5",
    "to": "2026-11-13-4",
-   "type": "related",
-   "label": "関連: NVIDIA",
-   "confidence": 0.35,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-2763",
-   "from": "2026-11-12-5",
-   "to": "2026-11-15-1",
    "type": "related",
    "label": "関連: NVIDIA",
    "confidence": 0.35,
@@ -28951,6 +29115,16 @@
   {
    "id": "link-2764",
    "from": "2026-11-12-5",
+   "to": "2026-11-15-1",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.35,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2765",
+   "from": "2026-11-12-5",
    "to": "2026-11-15-3",
    "type": "related",
    "label": "関連: Anthropic",
@@ -28959,19 +29133,9 @@
    "note": ""
   },
   {
-   "id": "link-2765",
-   "from": "2026-11-12-5",
-   "to": "2026-11-16-1",
-   "type": "related",
-   "label": "関連: NVIDIA",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2766",
    "from": "2026-11-12-5",
-   "to": "2026-11-16-3",
+   "to": "2026-11-16-1",
    "type": "related",
    "label": "関連: NVIDIA",
    "confidence": 0.26,
@@ -28981,6 +29145,16 @@
   {
    "id": "link-2767",
    "from": "2026-11-12-5",
+   "to": "2026-11-16-3",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2768",
+   "from": "2026-11-12-5",
    "to": "2026-11-17-1",
    "type": "related",
    "label": "関連: NVIDIA · AI-chip",
@@ -28989,7 +29163,7 @@
    "note": ""
   },
   {
-   "id": "link-2769",
+   "id": "link-2770",
    "from": "2026-11-12-5",
    "to": "2026-11-18-1",
    "type": "related",
@@ -28999,7 +29173,7 @@
    "note": ""
   },
   {
-   "id": "link-2770",
+   "id": "link-2771",
    "from": "2026-11-12-5",
    "to": "2026-11-18-2",
    "type": "related",
@@ -29009,7 +29183,7 @@
    "note": ""
   },
   {
-   "id": "link-2772",
+   "id": "link-2773",
    "from": "2026-11-12-5",
    "to": "2026-11-19-1",
    "type": "related",
@@ -29019,7 +29193,7 @@
    "note": ""
   },
   {
-   "id": "link-2773",
+   "id": "link-2774",
    "from": "2026-11-12-5",
    "to": "2026-11-19-2",
    "type": "related",
@@ -29029,7 +29203,7 @@
    "note": ""
   },
   {
-   "id": "link-2778",
+   "id": "link-2779",
    "from": "2026-11-12-6",
    "to": "2026-11-13-7",
    "type": "same_arc",
@@ -29039,7 +29213,7 @@
    "note": ""
   },
   {
-   "id": "link-2791",
+   "id": "link-2792",
    "from": "2026-11-12-7",
    "to": "2026-11-13-6",
    "type": "same_arc",
@@ -29049,7 +29223,7 @@
    "note": ""
   },
   {
-   "id": "link-2797",
+   "id": "link-2798",
    "from": "2026-11-13-1",
    "to": "2026-11-13-3",
    "type": "related",
@@ -29059,7 +29233,7 @@
    "note": ""
   },
   {
-   "id": "link-2798",
+   "id": "link-2799",
    "from": "2026-11-13-1",
    "to": "2026-11-13-4",
    "type": "related",
@@ -29069,7 +29243,7 @@
    "note": ""
   },
   {
-   "id": "link-2799",
+   "id": "link-2800",
    "from": "2026-11-13-1",
    "to": "2026-11-13-7",
    "type": "same_arc",
@@ -29079,7 +29253,7 @@
    "note": ""
   },
   {
-   "id": "link-2800",
+   "id": "link-2801",
    "from": "2026-11-13-1",
    "to": "2026-11-15-1",
    "type": "leads_to",
@@ -29089,7 +29263,7 @@
    "note": ""
   },
   {
-   "id": "link-2801",
+   "id": "link-2802",
    "from": "2026-11-13-1",
    "to": "2026-11-16-1",
    "type": "causes",
@@ -29099,7 +29273,7 @@
    "note": ""
   },
   {
-   "id": "link-2802",
+   "id": "link-2803",
    "from": "2026-11-13-1",
    "to": "2026-11-16-3",
    "type": "related",
@@ -29109,7 +29283,7 @@
    "note": ""
   },
   {
-   "id": "link-2803",
+   "id": "link-2804",
    "from": "2026-11-13-1",
    "to": "2026-11-17-1",
    "type": "related",
@@ -29119,7 +29293,7 @@
    "note": ""
   },
   {
-   "id": "link-2805",
+   "id": "link-2806",
    "from": "2026-11-13-1",
    "to": "2026-11-18-1",
    "type": "leads_to",
@@ -29129,7 +29303,7 @@
    "note": ""
   },
   {
-   "id": "link-2807",
+   "id": "link-2808",
    "from": "2026-11-13-1",
    "to": "2026-11-19-2",
    "type": "causes",
@@ -29139,7 +29313,7 @@
    "note": ""
   },
   {
-   "id": "link-2809",
+   "id": "link-2810",
    "from": "2026-11-13-1",
    "to": "2026-11-21-4",
    "type": "related",
@@ -29149,7 +29323,7 @@
    "note": ""
   },
   {
-   "id": "link-2810",
+   "id": "link-2811",
    "from": "2026-11-13-1",
    "to": "2026-11-24-1",
    "type": "related",
@@ -29159,7 +29333,7 @@
    "note": ""
   },
   {
-   "id": "link-2812",
+   "id": "link-2813",
    "from": "2026-11-13-2",
    "to": "2026-11-14-1",
    "type": "related",
@@ -29169,7 +29343,7 @@
    "note": ""
   },
   {
-   "id": "link-2813",
+   "id": "link-2814",
    "from": "2026-11-13-2",
    "to": "2026-11-15-2",
    "type": "related",
@@ -29179,7 +29353,7 @@
    "note": ""
   },
   {
-   "id": "link-2814",
+   "id": "link-2815",
    "from": "2026-11-13-2",
    "to": "2026-11-17-2",
    "type": "related",
@@ -29189,7 +29363,7 @@
    "note": ""
   },
   {
-   "id": "link-2815",
+   "id": "link-2816",
    "from": "2026-11-13-2",
    "to": "2026-11-19-1",
    "type": "related",
@@ -29199,7 +29373,7 @@
    "note": ""
   },
   {
-   "id": "link-2817",
+   "id": "link-2818",
    "from": "2026-11-13-2",
    "to": "2026-11-20-3",
    "type": "related",
@@ -29209,7 +29383,7 @@
    "note": ""
   },
   {
-   "id": "link-2820",
+   "id": "link-2821",
    "from": "2026-11-13-3",
    "to": "2026-11-14-4",
    "type": "related",
@@ -29219,7 +29393,7 @@
    "note": ""
   },
   {
-   "id": "link-2821",
+   "id": "link-2822",
    "from": "2026-11-13-3",
    "to": "2026-11-18-1",
    "type": "related",
@@ -29229,7 +29403,7 @@
    "note": ""
   },
   {
-   "id": "link-2822",
+   "id": "link-2823",
    "from": "2026-11-13-3",
    "to": "2026-11-18-2",
    "type": "related",
@@ -29239,7 +29413,7 @@
    "note": ""
   },
   {
-   "id": "link-2823",
+   "id": "link-2824",
    "from": "2026-11-13-3",
    "to": "2026-11-20-3",
    "type": "related",
@@ -29249,7 +29423,7 @@
    "note": ""
   },
   {
-   "id": "link-2825",
+   "id": "link-2826",
    "from": "2026-11-13-4",
    "to": "2026-11-14-3",
    "type": "same_arc",
@@ -29259,7 +29433,7 @@
    "note": ""
   },
   {
-   "id": "link-2826",
+   "id": "link-2827",
    "from": "2026-11-13-4",
    "to": "2026-11-15-1",
    "type": "related",
@@ -29269,7 +29443,7 @@
    "note": ""
   },
   {
-   "id": "link-2827",
+   "id": "link-2828",
    "from": "2026-11-13-4",
    "to": "2026-11-16-1",
    "type": "related",
@@ -29279,7 +29453,7 @@
    "note": ""
   },
   {
-   "id": "link-2828",
+   "id": "link-2829",
    "from": "2026-11-13-4",
    "to": "2026-11-16-2",
    "type": "related",
@@ -29289,7 +29463,7 @@
    "note": ""
   },
   {
-   "id": "link-2829",
+   "id": "link-2830",
    "from": "2026-11-13-4",
    "to": "2026-11-16-3",
    "type": "related",
@@ -29299,7 +29473,7 @@
    "note": ""
   },
   {
-   "id": "link-2830",
+   "id": "link-2831",
    "from": "2026-11-13-4",
    "to": "2026-11-17-1",
    "type": "related",
@@ -29309,7 +29483,7 @@
    "note": ""
   },
   {
-   "id": "link-2832",
+   "id": "link-2833",
    "from": "2026-11-13-4",
    "to": "2026-11-18-1",
    "type": "related",
@@ -29319,7 +29493,7 @@
    "note": ""
   },
   {
-   "id": "link-2834",
+   "id": "link-2835",
    "from": "2026-11-13-4",
    "to": "2026-11-19-2",
    "type": "related",
@@ -29329,7 +29503,7 @@
    "note": ""
   },
   {
-   "id": "link-2836",
+   "id": "link-2837",
    "from": "2026-11-13-4",
    "to": "2026-11-20-1",
    "type": "related",
@@ -29339,7 +29513,7 @@
    "note": ""
   },
   {
-   "id": "link-2837",
+   "id": "link-2838",
    "from": "2026-11-13-5",
    "to": "2026-11-14-4",
    "type": "related",
@@ -29349,7 +29523,7 @@
    "note": ""
   },
   {
-   "id": "link-2838",
+   "id": "link-2839",
    "from": "2026-11-13-5",
    "to": "2026-11-14-5",
    "type": "related",
@@ -29359,7 +29533,7 @@
    "note": ""
   },
   {
-   "id": "link-2839",
+   "id": "link-2840",
    "from": "2026-11-13-5",
    "to": "2026-11-15-3",
    "type": "related",
@@ -29369,7 +29543,7 @@
    "note": ""
   },
   {
-   "id": "link-2840",
+   "id": "link-2841",
    "from": "2026-11-13-5",
    "to": "2026-11-16-2",
    "type": "related",
@@ -29379,7 +29553,7 @@
    "note": ""
   },
   {
-   "id": "link-2841",
+   "id": "link-2842",
    "from": "2026-11-13-5",
    "to": "2026-11-16-4",
    "type": "related",
@@ -29389,7 +29563,7 @@
    "note": ""
   },
   {
-   "id": "link-2842",
+   "id": "link-2843",
    "from": "2026-11-13-5",
    "to": "2026-11-17-5",
    "type": "related",
@@ -29399,7 +29573,7 @@
    "note": ""
   },
   {
-   "id": "link-2843",
+   "id": "link-2844",
    "from": "2026-11-13-5",
    "to": "2026-11-18-5",
    "type": "related",
@@ -29409,7 +29583,7 @@
    "note": ""
   },
   {
-   "id": "link-2848",
+   "id": "link-2849",
    "from": "2026-11-13-6",
    "to": "2026-11-21-6",
    "type": "causes",
@@ -29419,7 +29593,7 @@
    "note": ""
   },
   {
-   "id": "link-2859",
+   "id": "link-2860",
    "from": "2026-11-14-1",
    "to": "2026-11-15-2",
    "type": "related",
@@ -29429,7 +29603,7 @@
    "note": ""
   },
   {
-   "id": "link-2860",
+   "id": "link-2861",
    "from": "2026-11-14-1",
    "to": "2026-11-17-2",
    "type": "related",
@@ -29439,7 +29613,7 @@
    "note": ""
   },
   {
-   "id": "link-2861",
+   "id": "link-2862",
    "from": "2026-11-14-1",
    "to": "2026-11-19-1",
    "type": "related",
@@ -29449,7 +29623,7 @@
    "note": ""
   },
   {
-   "id": "link-2863",
+   "id": "link-2864",
    "from": "2026-11-14-1",
    "to": "2026-11-20-3",
    "type": "related",
@@ -29459,7 +29633,7 @@
    "note": ""
   },
   {
-   "id": "link-2865",
+   "id": "link-2866",
    "from": "2026-11-14-2",
    "to": "2026-11-14-5",
    "type": "related",
@@ -29469,19 +29643,9 @@
    "note": ""
   },
   {
-   "id": "link-2866",
-   "from": "2026-11-14-2",
-   "to": "2026-11-15-4",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.39,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2867",
    "from": "2026-11-14-2",
-   "to": "2026-11-17-5",
+   "to": "2026-11-15-4",
    "type": "related",
    "label": "関連: Google",
    "confidence": 0.39,
@@ -29491,6 +29655,16 @@
   {
    "id": "link-2868",
    "from": "2026-11-14-2",
+   "to": "2026-11-17-5",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2869",
+   "from": "2026-11-14-2",
    "to": "2026-11-18-3",
    "type": "related",
    "label": "関連: Google",
@@ -29499,7 +29673,7 @@
    "note": ""
   },
   {
-   "id": "link-2869",
+   "id": "link-2870",
    "from": "2026-11-14-2",
    "to": "2026-11-18-4",
    "type": "related",
@@ -29509,7 +29683,7 @@
    "note": ""
   },
   {
-   "id": "link-2870",
+   "id": "link-2871",
    "from": "2026-11-14-2",
    "to": "2026-11-19-1",
    "type": "related",
@@ -29519,7 +29693,7 @@
    "note": ""
   },
   {
-   "id": "link-2872",
+   "id": "link-2873",
    "from": "2026-11-14-2",
    "to": "2026-11-20-2",
    "type": "related",
@@ -29529,7 +29703,7 @@
    "note": ""
   },
   {
-   "id": "link-2873",
+   "id": "link-2874",
    "from": "2026-11-14-2",
    "to": "2026-11-21-2",
    "type": "related",
@@ -29539,7 +29713,7 @@
    "note": ""
   },
   {
-   "id": "link-2874",
+   "id": "link-2875",
    "from": "2026-11-14-2",
    "to": "2026-11-21-3",
    "type": "related",
@@ -29549,7 +29723,7 @@
    "note": ""
   },
   {
-   "id": "link-2876",
+   "id": "link-2877",
    "from": "2026-11-14-3",
    "to": "2026-11-16-2",
    "type": "related",
@@ -29559,7 +29733,7 @@
    "note": ""
   },
   {
-   "id": "link-2877",
+   "id": "link-2878",
    "from": "2026-11-14-3",
    "to": "2026-11-20-1",
    "type": "related",
@@ -29569,7 +29743,7 @@
    "note": ""
   },
   {
-   "id": "link-2878",
+   "id": "link-2879",
    "from": "2026-11-14-4",
    "to": "2026-11-14-5",
    "type": "causes",
@@ -29579,7 +29753,7 @@
    "note": ""
   },
   {
-   "id": "link-2879",
+   "id": "link-2880",
    "from": "2026-11-14-4",
    "to": "2026-11-16-2",
    "type": "related",
@@ -29589,7 +29763,7 @@
    "note": ""
   },
   {
-   "id": "link-2880",
+   "id": "link-2881",
    "from": "2026-11-14-4",
    "to": "2026-11-17-4",
    "type": "related",
@@ -29599,7 +29773,7 @@
    "note": ""
   },
   {
-   "id": "link-2881",
+   "id": "link-2882",
    "from": "2026-11-14-4",
    "to": "2026-11-21-1",
    "type": "related",
@@ -29609,7 +29783,7 @@
    "note": ""
   },
   {
-   "id": "link-2882",
+   "id": "link-2883",
    "from": "2026-11-14-4",
    "to": "2026-11-22-3",
    "type": "related",
@@ -29619,7 +29793,7 @@
    "note": ""
   },
   {
-   "id": "link-2883",
+   "id": "link-2884",
    "from": "2026-11-14-5",
    "to": "2026-11-15-4",
    "type": "related",
@@ -29629,7 +29803,7 @@
    "note": ""
   },
   {
-   "id": "link-2884",
+   "id": "link-2885",
    "from": "2026-11-14-5",
    "to": "2026-11-16-2",
    "type": "related",
@@ -29639,7 +29813,7 @@
    "note": ""
   },
   {
-   "id": "link-2885",
+   "id": "link-2886",
    "from": "2026-11-14-5",
    "to": "2026-11-17-5",
    "type": "related",
@@ -29649,7 +29823,7 @@
    "note": ""
   },
   {
-   "id": "link-2886",
+   "id": "link-2887",
    "from": "2026-11-14-5",
    "to": "2026-11-18-3",
    "type": "related",
@@ -29659,19 +29833,9 @@
    "note": ""
   },
   {
-   "id": "link-2887",
-   "from": "2026-11-14-5",
-   "to": "2026-11-18-4",
-   "type": "related",
-   "label": "関連: Google",
-   "confidence": 0.28,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2888",
    "from": "2026-11-14-5",
-   "to": "2026-11-20-2",
+   "to": "2026-11-18-4",
    "type": "related",
    "label": "関連: Google",
    "confidence": 0.28,
@@ -29681,6 +29845,16 @@
   {
    "id": "link-2889",
    "from": "2026-11-14-5",
+   "to": "2026-11-20-2",
+   "type": "related",
+   "label": "関連: Google",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2890",
+   "from": "2026-11-14-5",
    "to": "2026-11-21-1",
    "type": "related",
    "label": "関連: Samsung",
@@ -29689,7 +29863,7 @@
    "note": ""
   },
   {
-   "id": "link-2890",
+   "id": "link-2891",
    "from": "2026-11-14-5",
    "to": "2026-11-21-2",
    "type": "related",
@@ -29699,7 +29873,7 @@
    "note": ""
   },
   {
-   "id": "link-2891",
+   "id": "link-2892",
    "from": "2026-11-14-5",
    "to": "2026-11-21-3",
    "type": "related",
@@ -29709,7 +29883,7 @@
    "note": ""
   },
   {
-   "id": "link-2893",
+   "id": "link-2894",
    "from": "2026-11-15-1",
    "to": "2026-11-16-1",
    "type": "same_arc",
@@ -29719,7 +29893,7 @@
    "note": ""
   },
   {
-   "id": "link-2894",
+   "id": "link-2895",
    "from": "2026-11-15-1",
    "to": "2026-11-16-3",
    "type": "related",
@@ -29729,7 +29903,7 @@
    "note": ""
   },
   {
-   "id": "link-2895",
+   "id": "link-2896",
    "from": "2026-11-15-1",
    "to": "2026-11-17-1",
    "type": "related",
@@ -29739,7 +29913,7 @@
    "note": ""
   },
   {
-   "id": "link-2896",
+   "id": "link-2897",
    "from": "2026-11-15-1",
    "to": "2026-11-17-6",
    "type": "causes",
@@ -29749,7 +29923,7 @@
    "note": ""
   },
   {
-   "id": "link-2897",
+   "id": "link-2898",
    "from": "2026-11-15-1",
    "to": "2026-11-18-1",
    "type": "causes",
@@ -29759,7 +29933,7 @@
    "note": ""
   },
   {
-   "id": "link-2899",
+   "id": "link-2900",
    "from": "2026-11-15-1",
    "to": "2026-11-19-2",
    "type": "causes",
@@ -29769,7 +29943,7 @@
    "note": ""
   },
   {
-   "id": "link-2901",
+   "id": "link-2902",
    "from": "2026-11-15-1",
    "to": "2026-11-21-4",
    "type": "related",
@@ -29779,7 +29953,7 @@
    "note": ""
   },
   {
-   "id": "link-2903",
+   "id": "link-2904",
    "from": "2026-11-15-1",
    "to": "2026-11-24-1",
    "type": "causes",
@@ -29789,7 +29963,7 @@
    "note": ""
   },
   {
-   "id": "link-2905",
+   "id": "link-2906",
    "from": "2026-11-15-2",
    "to": "2026-11-16-3",
    "type": "related",
@@ -29799,7 +29973,7 @@
    "note": ""
   },
   {
-   "id": "link-2906",
+   "id": "link-2907",
    "from": "2026-11-15-2",
    "to": "2026-11-17-2",
    "type": "related",
@@ -29809,7 +29983,7 @@
    "note": ""
   },
   {
-   "id": "link-2907",
+   "id": "link-2908",
    "from": "2026-11-15-2",
    "to": "2026-11-19-1",
    "type": "related",
@@ -29819,7 +29993,7 @@
    "note": ""
   },
   {
-   "id": "link-2909",
+   "id": "link-2910",
    "from": "2026-11-15-2",
    "to": "2026-11-20-3",
    "type": "related",
@@ -29829,7 +30003,7 @@
    "note": ""
   },
   {
-   "id": "link-2911",
+   "id": "link-2912",
    "from": "2026-11-15-2",
    "to": "2026-11-22-4",
    "type": "related",
@@ -29839,7 +30013,7 @@
    "note": ""
   },
   {
-   "id": "link-2912",
+   "id": "link-2913",
    "from": "2026-11-15-3",
    "to": "2026-11-17-3",
    "type": "related",
@@ -29849,7 +30023,7 @@
    "note": ""
   },
   {
-   "id": "link-2913",
+   "id": "link-2914",
    "from": "2026-11-15-3",
    "to": "2026-11-19-1",
    "type": "related",
@@ -29859,7 +30033,7 @@
    "note": ""
   },
   {
-   "id": "link-2914",
+   "id": "link-2915",
    "from": "2026-11-15-3",
    "to": "2026-11-20-1",
    "type": "related",
@@ -29869,7 +30043,7 @@
    "note": ""
   },
   {
-   "id": "link-2917",
+   "id": "link-2918",
    "from": "2026-11-15-3",
    "to": "2026-11-22-1",
    "type": "related",
@@ -29879,7 +30053,7 @@
    "note": ""
   },
   {
-   "id": "link-2918",
+   "id": "link-2919",
    "from": "2026-11-15-4",
    "to": "2026-11-17-5",
    "type": "related",
@@ -29889,7 +30063,7 @@
    "note": ""
   },
   {
-   "id": "link-2919",
+   "id": "link-2920",
    "from": "2026-11-15-4",
    "to": "2026-11-18-3",
    "type": "causes",
@@ -29899,7 +30073,7 @@
    "note": ""
   },
   {
-   "id": "link-2920",
+   "id": "link-2921",
    "from": "2026-11-15-4",
    "to": "2026-11-18-4",
    "type": "related",
@@ -29909,7 +30083,7 @@
    "note": ""
   },
   {
-   "id": "link-2921",
+   "id": "link-2922",
    "from": "2026-11-15-4",
    "to": "2026-11-20-2",
    "type": "related",
@@ -29919,7 +30093,7 @@
    "note": ""
   },
   {
-   "id": "link-2922",
+   "id": "link-2923",
    "from": "2026-11-15-4",
    "to": "2026-11-21-2",
    "type": "related",
@@ -29929,7 +30103,7 @@
    "note": ""
   },
   {
-   "id": "link-2923",
+   "id": "link-2924",
    "from": "2026-11-15-4",
    "to": "2026-11-21-3",
    "type": "related",
@@ -29939,7 +30113,7 @@
    "note": ""
   },
   {
-   "id": "link-2925",
+   "id": "link-2926",
    "from": "2026-11-15-4",
    "to": "2026-11-22-2",
    "type": "related",
@@ -29949,7 +30123,7 @@
    "note": ""
   },
   {
-   "id": "link-2926",
+   "id": "link-2927",
    "from": "2026-11-16-1",
    "to": "2026-11-16-3",
    "type": "related",
@@ -29959,7 +30133,7 @@
    "note": ""
   },
   {
-   "id": "link-2927",
+   "id": "link-2928",
    "from": "2026-11-16-1",
    "to": "2026-11-17-1",
    "type": "causes",
@@ -29969,7 +30143,7 @@
    "note": ""
   },
   {
-   "id": "link-2929",
+   "id": "link-2930",
    "from": "2026-11-16-1",
    "to": "2026-11-18-1",
    "type": "causes",
@@ -29979,7 +30153,7 @@
    "note": ""
   },
   {
-   "id": "link-2931",
+   "id": "link-2932",
    "from": "2026-11-16-1",
    "to": "2026-11-19-2",
    "type": "causes",
@@ -29989,7 +30163,7 @@
    "note": ""
   },
   {
-   "id": "link-2933",
+   "id": "link-2934",
    "from": "2026-11-16-1",
    "to": "2026-11-21-4",
    "type": "related",
@@ -29999,7 +30173,7 @@
    "note": ""
   },
   {
-   "id": "link-2935",
+   "id": "link-2936",
    "from": "2026-11-16-1",
    "to": "2026-11-23-2",
    "type": "related",
@@ -30009,7 +30183,7 @@
    "note": ""
   },
   {
-   "id": "link-2936",
+   "id": "link-2937",
    "from": "2026-11-16-1",
    "to": "2026-11-24-1",
    "type": "causes",
@@ -30019,7 +30193,7 @@
    "note": ""
   },
   {
-   "id": "link-2937",
+   "id": "link-2938",
    "from": "2026-11-16-1",
    "to": "2026-11-24-2",
    "type": "related",
@@ -30029,7 +30203,7 @@
    "note": ""
   },
   {
-   "id": "link-2939",
+   "id": "link-2940",
    "from": "2026-11-16-2",
    "to": "2026-11-16-5",
    "type": "same_arc",
@@ -30039,7 +30213,7 @@
    "note": ""
   },
   {
-   "id": "link-2940",
+   "id": "link-2941",
    "from": "2026-11-16-2",
    "to": "2026-11-19-3",
    "type": "related",
@@ -30049,7 +30223,7 @@
    "note": ""
   },
   {
-   "id": "link-2941",
+   "id": "link-2942",
    "from": "2026-11-16-2",
    "to": "2026-11-20-1",
    "type": "related",
@@ -30059,7 +30233,7 @@
    "note": ""
   },
   {
-   "id": "link-2942",
+   "id": "link-2943",
    "from": "2026-11-16-2",
    "to": "2026-11-21-1",
    "type": "related",
@@ -30069,7 +30243,7 @@
    "note": ""
   },
   {
-   "id": "link-2943",
+   "id": "link-2944",
    "from": "2026-11-16-2",
    "to": "2026-11-23-3",
    "type": "related",
@@ -30079,7 +30253,7 @@
    "note": ""
   },
   {
-   "id": "link-2944",
+   "id": "link-2945",
    "from": "2026-11-16-3",
    "to": "2026-11-17-1",
    "type": "related",
@@ -30089,7 +30263,7 @@
    "note": ""
   },
   {
-   "id": "link-2945",
+   "id": "link-2946",
    "from": "2026-11-16-3",
    "to": "2026-11-17-2",
    "type": "related",
@@ -30099,7 +30273,7 @@
    "note": ""
   },
   {
-   "id": "link-2947",
+   "id": "link-2948",
    "from": "2026-11-16-3",
    "to": "2026-11-18-1",
    "type": "related",
@@ -30109,7 +30283,7 @@
    "note": ""
   },
   {
-   "id": "link-2949",
+   "id": "link-2950",
    "from": "2026-11-16-3",
    "to": "2026-11-19-2",
    "type": "related",
@@ -30119,7 +30293,7 @@
    "note": ""
   },
   {
-   "id": "link-2951",
+   "id": "link-2952",
    "from": "2026-11-16-3",
    "to": "2026-11-21-4",
    "type": "related",
@@ -30129,7 +30303,7 @@
    "note": ""
   },
   {
-   "id": "link-2953",
+   "id": "link-2954",
    "from": "2026-11-16-3",
    "to": "2026-11-23-2",
    "type": "related",
@@ -30139,7 +30313,7 @@
    "note": ""
   },
   {
-   "id": "link-2954",
+   "id": "link-2955",
    "from": "2026-11-16-4",
    "to": "2026-11-17-5",
    "type": "related",
@@ -30149,7 +30323,7 @@
    "note": ""
   },
   {
-   "id": "link-2955",
+   "id": "link-2956",
    "from": "2026-11-16-4",
    "to": "2026-11-18-5",
    "type": "related",
@@ -30159,7 +30333,7 @@
    "note": ""
   },
   {
-   "id": "link-2956",
+   "id": "link-2957",
    "from": "2026-11-16-4",
    "to": "2026-11-21-2",
    "type": "related",
@@ -30169,7 +30343,7 @@
    "note": ""
   },
   {
-   "id": "link-2957",
+   "id": "link-2958",
    "from": "2026-11-16-4",
    "to": "2026-11-21-3",
    "type": "related",
@@ -30179,7 +30353,7 @@
    "note": ""
   },
   {
-   "id": "link-2959",
+   "id": "link-2960",
    "from": "2026-11-16-4",
    "to": "2026-11-22-5",
    "type": "related",
@@ -30189,7 +30363,7 @@
    "note": ""
   },
   {
-   "id": "link-2960",
+   "id": "link-2961",
    "from": "2026-11-16-5",
    "to": "2026-11-21-2",
    "type": "related",
@@ -30199,7 +30373,7 @@
    "note": ""
   },
   {
-   "id": "link-2961",
+   "id": "link-2962",
    "from": "2026-11-17-1",
    "to": "2026-11-17-4",
    "type": "related",
@@ -30209,7 +30383,7 @@
    "note": ""
   },
   {
-   "id": "link-2962",
+   "id": "link-2963",
    "from": "2026-11-17-1",
    "to": "2026-11-17-6",
    "type": "same_arc",
@@ -30219,7 +30393,7 @@
    "note": ""
   },
   {
-   "id": "link-2963",
+   "id": "link-2964",
    "from": "2026-11-17-1",
    "to": "2026-11-18-1",
    "type": "related",
@@ -30229,7 +30403,7 @@
    "note": ""
   },
   {
-   "id": "link-2965",
+   "id": "link-2966",
    "from": "2026-11-17-1",
    "to": "2026-11-19-2",
    "type": "causes",
@@ -30239,7 +30413,7 @@
    "note": ""
   },
   {
-   "id": "link-2967",
+   "id": "link-2968",
    "from": "2026-11-17-1",
    "to": "2026-11-21-1",
    "type": "related",
@@ -30249,7 +30423,7 @@
    "note": ""
   },
   {
-   "id": "link-2968",
+   "id": "link-2969",
    "from": "2026-11-17-1",
    "to": "2026-11-21-4",
    "type": "causes",
@@ -30259,7 +30433,7 @@
    "note": ""
   },
   {
-   "id": "link-2970",
+   "id": "link-2971",
    "from": "2026-11-17-1",
    "to": "2026-11-23-2",
    "type": "related",
@@ -30269,7 +30443,7 @@
    "note": ""
   },
   {
-   "id": "link-2971",
+   "id": "link-2972",
    "from": "2026-11-17-1",
    "to": "2026-11-24-1",
    "type": "related",
@@ -30279,7 +30453,7 @@
    "note": ""
   },
   {
-   "id": "link-2972",
+   "id": "link-2973",
    "from": "2026-11-17-1",
    "to": "2026-11-24-2",
    "type": "causes",
@@ -30289,7 +30463,7 @@
    "note": ""
   },
   {
-   "id": "link-2973",
+   "id": "link-2974",
    "from": "2026-11-17-1",
    "to": "2026-11-26-3",
    "type": "related",
@@ -30299,7 +30473,17 @@
    "note": ""
   },
   {
-   "id": "link-2975",
+   "id": "link-2976",
+   "from": "2026-11-17-1",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: Megaspeed・NVIDIA",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2977",
    "from": "2026-11-17-2",
    "to": "2026-11-19-1",
    "type": "related",
@@ -30309,7 +30493,7 @@
    "note": ""
   },
   {
-   "id": "link-2977",
+   "id": "link-2979",
    "from": "2026-11-17-2",
    "to": "2026-11-20-3",
    "type": "related",
@@ -30319,7 +30503,7 @@
    "note": ""
   },
   {
-   "id": "link-2979",
+   "id": "link-2981",
    "from": "2026-11-17-2",
    "to": "2026-11-21-4",
    "type": "related",
@@ -30329,29 +30513,9 @@
    "note": ""
   },
   {
-   "id": "link-2980",
-   "from": "2026-11-17-2",
-   "to": "2026-11-22-4",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.29,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-2981",
-   "from": "2026-11-17-2",
-   "to": "2026-11-23-1",
-   "type": "related",
-   "label": "関連: OpenAI",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-2982",
    "from": "2026-11-17-2",
-   "to": "2026-11-24-3",
+   "to": "2026-11-22-4",
    "type": "related",
    "label": "関連: OpenAI",
    "confidence": 0.29,
@@ -30361,6 +30525,26 @@
   {
    "id": "link-2983",
    "from": "2026-11-17-2",
+   "to": "2026-11-23-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2984",
+   "from": "2026-11-17-2",
+   "to": "2026-11-24-3",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-2985",
+   "from": "2026-11-17-2",
    "to": "2026-11-24-4",
    "type": "related",
    "label": "関連: OpenAI",
@@ -30369,7 +30553,7 @@
    "note": ""
   },
   {
-   "id": "link-2985",
+   "id": "link-2987",
    "from": "2026-11-17-3",
    "to": "2026-11-19-4",
    "type": "related",
@@ -30379,7 +30563,7 @@
    "note": ""
   },
   {
-   "id": "link-2986",
+   "id": "link-2988",
    "from": "2026-11-17-3",
    "to": "2026-11-20-5",
    "type": "related",
@@ -30389,7 +30573,7 @@
    "note": ""
   },
   {
-   "id": "link-2987",
+   "id": "link-2989",
    "from": "2026-11-17-4",
    "to": "2026-11-20-4",
    "type": "related",
@@ -30399,7 +30583,7 @@
    "note": ""
   },
   {
-   "id": "link-2988",
+   "id": "link-2990",
    "from": "2026-11-17-4",
    "to": "2026-11-21-1",
    "type": "related",
@@ -30409,7 +30593,7 @@
    "note": ""
   },
   {
-   "id": "link-2989",
+   "id": "link-2991",
    "from": "2026-11-17-5",
    "to": "2026-11-18-3",
    "type": "related",
@@ -30419,7 +30603,7 @@
    "note": ""
   },
   {
-   "id": "link-2990",
+   "id": "link-2992",
    "from": "2026-11-17-5",
    "to": "2026-11-18-4",
    "type": "same_arc",
@@ -30429,7 +30613,7 @@
    "note": ""
   },
   {
-   "id": "link-2991",
+   "id": "link-2993",
    "from": "2026-11-17-5",
    "to": "2026-11-18-5",
    "type": "related",
@@ -30439,7 +30623,7 @@
    "note": ""
   },
   {
-   "id": "link-2992",
+   "id": "link-2994",
    "from": "2026-11-17-5",
    "to": "2026-11-19-5",
    "type": "related",
@@ -30449,7 +30633,7 @@
    "note": ""
   },
   {
-   "id": "link-2993",
+   "id": "link-2995",
    "from": "2026-11-17-5",
    "to": "2026-11-20-2",
    "type": "related",
@@ -30459,7 +30643,7 @@
    "note": ""
   },
   {
-   "id": "link-2994",
+   "id": "link-2996",
    "from": "2026-11-17-5",
    "to": "2026-11-21-2",
    "type": "related",
@@ -30469,7 +30653,7 @@
    "note": ""
   },
   {
-   "id": "link-2995",
+   "id": "link-2997",
    "from": "2026-11-17-5",
    "to": "2026-11-21-3",
    "type": "related",
@@ -30479,7 +30663,7 @@
    "note": ""
   },
   {
-   "id": "link-2997",
+   "id": "link-2999",
    "from": "2026-11-17-5",
    "to": "2026-11-22-2",
    "type": "related",
@@ -30489,7 +30673,7 @@
    "note": ""
   },
   {
-   "id": "link-2998",
+   "id": "link-3000",
    "from": "2026-11-17-5",
    "to": "2026-11-22-5",
    "type": "related",
@@ -30499,7 +30683,7 @@
    "note": ""
   },
   {
-   "id": "link-2999",
+   "id": "link-3001",
    "from": "2026-11-17-6",
    "to": "2026-11-18-1",
    "type": "same_arc",
@@ -30509,7 +30693,7 @@
    "note": ""
   },
   {
-   "id": "link-3009",
+   "id": "link-3011",
    "from": "2026-11-18-1",
    "to": "2026-11-18-2",
    "type": "related",
@@ -30519,7 +30703,7 @@
    "note": ""
   },
   {
-   "id": "link-3011",
+   "id": "link-3013",
    "from": "2026-11-18-1",
    "to": "2026-11-19-2",
    "type": "same_arc",
@@ -30529,7 +30713,7 @@
    "note": ""
   },
   {
-   "id": "link-3013",
+   "id": "link-3015",
    "from": "2026-11-18-1",
    "to": "2026-11-21-4",
    "type": "causes",
@@ -30539,7 +30723,7 @@
    "note": ""
   },
   {
-   "id": "link-3015",
+   "id": "link-3017",
    "from": "2026-11-18-1",
    "to": "2026-11-23-2",
    "type": "related",
@@ -30549,7 +30733,7 @@
    "note": ""
   },
   {
-   "id": "link-3016",
+   "id": "link-3018",
    "from": "2026-11-18-1",
    "to": "2026-11-24-1",
    "type": "related",
@@ -30559,7 +30743,7 @@
    "note": ""
   },
   {
-   "id": "link-3017",
+   "id": "link-3019",
    "from": "2026-11-18-1",
    "to": "2026-11-24-2",
    "type": "related",
@@ -30569,7 +30753,7 @@
    "note": ""
   },
   {
-   "id": "link-3018",
+   "id": "link-3020",
    "from": "2026-11-18-1",
    "to": "2026-11-25-2",
    "type": "related",
@@ -30579,7 +30763,7 @@
    "note": ""
   },
   {
-   "id": "link-3021",
+   "id": "link-3023",
    "from": "2026-11-18-2",
    "to": "2026-11-20-3",
    "type": "related",
@@ -30589,7 +30773,7 @@
    "note": ""
   },
   {
-   "id": "link-3022",
+   "id": "link-3024",
    "from": "2026-11-18-2",
    "to": "2026-11-22-2",
    "type": "related",
@@ -30599,7 +30783,7 @@
    "note": ""
   },
   {
-   "id": "link-3023",
+   "id": "link-3025",
    "from": "2026-11-18-3",
    "to": "2026-11-18-4",
    "type": "causes",
@@ -30609,7 +30793,7 @@
    "note": ""
   },
   {
-   "id": "link-3024",
+   "id": "link-3026",
    "from": "2026-11-18-3",
    "to": "2026-11-20-2",
    "type": "causes",
@@ -30619,7 +30803,7 @@
    "note": ""
   },
   {
-   "id": "link-3025",
+   "id": "link-3027",
    "from": "2026-11-18-3",
    "to": "2026-11-21-2",
    "type": "related",
@@ -30629,7 +30813,7 @@
    "note": ""
   },
   {
-   "id": "link-3026",
+   "id": "link-3028",
    "from": "2026-11-18-3",
    "to": "2026-11-21-3",
    "type": "related",
@@ -30639,7 +30823,7 @@
    "note": ""
   },
   {
-   "id": "link-3027",
+   "id": "link-3029",
    "from": "2026-11-18-3",
    "to": "2026-11-21-8",
    "type": "causes",
@@ -30649,7 +30833,7 @@
    "note": ""
   },
   {
-   "id": "link-3028",
+   "id": "link-3030",
    "from": "2026-11-18-3",
    "to": "2026-11-22-2",
    "type": "related",
@@ -30659,7 +30843,7 @@
    "note": ""
   },
   {
-   "id": "link-3029",
+   "id": "link-3031",
    "from": "2026-11-18-3",
    "to": "2026-11-25-3",
    "type": "related",
@@ -30669,7 +30853,7 @@
    "note": ""
   },
   {
-   "id": "link-3030",
+   "id": "link-3032",
    "from": "2026-11-18-4",
    "to": "2026-11-19-5",
    "type": "related",
@@ -30679,7 +30863,7 @@
    "note": ""
   },
   {
-   "id": "link-3031",
+   "id": "link-3033",
    "from": "2026-11-18-4",
    "to": "2026-11-20-2",
    "type": "related",
@@ -30689,7 +30873,7 @@
    "note": ""
   },
   {
-   "id": "link-3032",
+   "id": "link-3034",
    "from": "2026-11-18-4",
    "to": "2026-11-21-2",
    "type": "related",
@@ -30699,7 +30883,7 @@
    "note": ""
   },
   {
-   "id": "link-3033",
+   "id": "link-3035",
    "from": "2026-11-18-4",
    "to": "2026-11-21-3",
    "type": "related",
@@ -30709,7 +30893,7 @@
    "note": ""
   },
   {
-   "id": "link-3034",
+   "id": "link-3036",
    "from": "2026-11-18-4",
    "to": "2026-11-21-5",
    "type": "related",
@@ -30719,7 +30903,7 @@
    "note": ""
   },
   {
-   "id": "link-3036",
+   "id": "link-3038",
    "from": "2026-11-18-4",
    "to": "2026-11-22-2",
    "type": "related",
@@ -30729,7 +30913,7 @@
    "note": ""
   },
   {
-   "id": "link-3037",
+   "id": "link-3039",
    "from": "2026-11-18-4",
    "to": "2026-11-25-3",
    "type": "related",
@@ -30739,7 +30923,7 @@
    "note": ""
   },
   {
-   "id": "link-3038",
+   "id": "link-3040",
    "from": "2026-11-18-5",
    "to": "2026-11-21-3",
    "type": "related",
@@ -30749,7 +30933,7 @@
    "note": ""
   },
   {
-   "id": "link-3040",
+   "id": "link-3042",
    "from": "2026-11-18-5",
    "to": "2026-11-22-5",
    "type": "related",
@@ -30759,7 +30943,7 @@
    "note": ""
   },
   {
-   "id": "link-3042",
+   "id": "link-3044",
    "from": "2026-11-18-6",
    "to": "2026-11-19-7",
    "type": "same_arc",
@@ -30769,7 +30953,7 @@
    "note": ""
   },
   {
-   "id": "link-3044",
+   "id": "link-3046",
    "from": "2026-11-18-6",
    "to": "2026-11-21-4",
    "type": "leads_to",
@@ -30779,7 +30963,7 @@
    "note": ""
   },
   {
-   "id": "link-3046",
+   "id": "link-3048",
    "from": "2026-11-18-6",
    "to": "2026-11-21-7",
    "type": "leads_to",
@@ -30789,7 +30973,7 @@
    "note": ""
   },
   {
-   "id": "link-3054",
+   "id": "link-3057",
    "from": "2026-11-19-1",
    "to": "2026-11-19-8",
    "type": "same_arc",
@@ -30799,7 +30983,7 @@
    "note": ""
   },
   {
-   "id": "link-3055",
+   "id": "link-3058",
    "from": "2026-11-19-1",
    "to": "2026-11-20-1",
    "type": "related",
@@ -30809,7 +30993,7 @@
    "note": ""
   },
   {
-   "id": "link-3056",
+   "id": "link-3059",
    "from": "2026-11-19-1",
    "to": "2026-11-20-2",
    "type": "related",
@@ -30819,7 +31003,7 @@
    "note": ""
   },
   {
-   "id": "link-3057",
+   "id": "link-3060",
    "from": "2026-11-19-1",
    "to": "2026-11-20-3",
    "type": "related",
@@ -30829,7 +31013,7 @@
    "note": ""
   },
   {
-   "id": "link-3060",
+   "id": "link-3063",
    "from": "2026-11-19-1",
    "to": "2026-11-22-1",
    "type": "related",
@@ -30839,7 +31023,7 @@
    "note": ""
   },
   {
-   "id": "link-3061",
+   "id": "link-3064",
    "from": "2026-11-19-1",
    "to": "2026-11-22-4",
    "type": "leads_to",
@@ -30849,7 +31033,7 @@
    "note": ""
   },
   {
-   "id": "link-3062",
+   "id": "link-3065",
    "from": "2026-11-19-1",
    "to": "2026-11-23-1",
    "type": "related",
@@ -30859,7 +31043,7 @@
    "note": ""
   },
   {
-   "id": "link-3063",
+   "id": "link-3066",
    "from": "2026-11-19-1",
    "to": "2026-11-24-3",
    "type": "related",
@@ -30869,7 +31053,7 @@
    "note": ""
   },
   {
-   "id": "link-3064",
+   "id": "link-3067",
    "from": "2026-11-19-1",
    "to": "2026-11-24-4",
    "type": "related",
@@ -30879,7 +31063,7 @@
    "note": ""
   },
   {
-   "id": "link-3066",
+   "id": "link-3069",
    "from": "2026-11-19-1",
    "to": "2026-11-26-5",
    "type": "related",
@@ -30889,7 +31073,7 @@
    "note": ""
   },
   {
-   "id": "link-3067",
+   "id": "link-3070",
    "from": "2026-11-19-1",
    "to": "2026-11-27-2",
    "type": "related",
@@ -30899,7 +31083,17 @@
    "note": ""
   },
   {
-   "id": "link-3068",
+   "id": "link-3071",
+   "from": "2026-11-19-1",
+   "to": "2026-11-28-5",
+   "type": "related",
+   "label": "関連: GPT-6.2 Astra・GPT-6.2 Sol",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3072",
    "from": "2026-11-19-2",
    "to": "2026-11-19-7",
    "type": "same_arc",
@@ -30909,7 +31103,7 @@
    "note": ""
   },
   {
-   "id": "link-3069",
+   "id": "link-3073",
    "from": "2026-11-19-2",
    "to": "2026-11-21-1",
    "type": "related",
@@ -30919,7 +31113,7 @@
    "note": ""
   },
   {
-   "id": "link-3070",
+   "id": "link-3074",
    "from": "2026-11-19-2",
    "to": "2026-11-21-4",
    "type": "leads_to",
@@ -30929,7 +31123,7 @@
    "note": ""
   },
   {
-   "id": "link-3071",
+   "id": "link-3075",
    "from": "2026-11-19-2",
    "to": "2026-11-21-5",
    "type": "related",
@@ -30939,7 +31133,7 @@
    "note": ""
   },
   {
-   "id": "link-3072",
+   "id": "link-3076",
    "from": "2026-11-19-2",
    "to": "2026-11-21-7",
    "type": "leads_to",
@@ -30949,7 +31143,7 @@
    "note": ""
   },
   {
-   "id": "link-3073",
+   "id": "link-3077",
    "from": "2026-11-19-2",
    "to": "2026-11-23-2",
    "type": "related",
@@ -30959,7 +31153,7 @@
    "note": ""
   },
   {
-   "id": "link-3074",
+   "id": "link-3078",
    "from": "2026-11-19-2",
    "to": "2026-11-24-1",
    "type": "causes",
@@ -30969,39 +31163,9 @@
    "note": ""
   },
   {
-   "id": "link-3075",
-   "from": "2026-11-19-2",
-   "to": "2026-11-24-2",
-   "type": "related",
-   "label": "関連: NVIDIA",
-   "confidence": 0.27,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-3076",
-   "from": "2026-11-19-2",
-   "to": "2026-11-25-2",
-   "type": "related",
-   "label": "関連: China・NVIDIA",
-   "confidence": 0.34,
-   "auto": true,
-   "note": ""
-  },
-  {
-   "id": "link-3078",
-   "from": "2026-11-19-2",
-   "to": "2026-11-26-1",
-   "type": "related",
-   "label": "関連: NVIDIA",
-   "confidence": 0.26,
-   "auto": true,
-   "note": ""
-  },
-  {
    "id": "link-3079",
    "from": "2026-11-19-2",
-   "to": "2026-11-26-2",
+   "to": "2026-11-24-2",
    "type": "related",
    "label": "関連: NVIDIA",
    "confidence": 0.27,
@@ -31011,6 +31175,36 @@
   {
    "id": "link-3080",
    "from": "2026-11-19-2",
+   "to": "2026-11-25-2",
+   "type": "related",
+   "label": "関連: China・NVIDIA",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3082",
+   "from": "2026-11-19-2",
+   "to": "2026-11-26-1",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3083",
+   "from": "2026-11-19-2",
+   "to": "2026-11-26-2",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3084",
+   "from": "2026-11-19-2",
    "to": "2026-11-26-3",
    "type": "related",
    "label": "関連: NVIDIA · China/export-control",
@@ -31019,7 +31213,7 @@
    "note": ""
   },
   {
-   "id": "link-3082",
+   "id": "link-3086",
    "from": "2026-11-19-3",
    "to": "2026-11-19-4",
    "type": "related",
@@ -31029,7 +31223,7 @@
    "note": ""
   },
   {
-   "id": "link-3084",
+   "id": "link-3088",
    "from": "2026-11-19-3",
    "to": "2026-11-20-4",
    "type": "same_arc",
@@ -31039,7 +31233,7 @@
    "note": ""
   },
   {
-   "id": "link-3085",
+   "id": "link-3089",
    "from": "2026-11-19-3",
    "to": "2026-11-21-2",
    "type": "related",
@@ -31049,7 +31243,7 @@
    "note": ""
   },
   {
-   "id": "link-3086",
+   "id": "link-3090",
    "from": "2026-11-19-3",
    "to": "2026-11-21-3",
    "type": "related",
@@ -31059,7 +31253,7 @@
    "note": ""
   },
   {
-   "id": "link-3088",
+   "id": "link-3092",
    "from": "2026-11-19-4",
    "to": "2026-11-20-4",
    "type": "related",
@@ -31069,7 +31263,7 @@
    "note": ""
   },
   {
-   "id": "link-3089",
+   "id": "link-3093",
    "from": "2026-11-19-4",
    "to": "2026-11-20-5",
    "type": "related",
@@ -31079,7 +31273,7 @@
    "note": ""
   },
   {
-   "id": "link-3090",
+   "id": "link-3094",
    "from": "2026-11-19-4",
    "to": "2026-11-21-2",
    "type": "related",
@@ -31089,7 +31283,7 @@
    "note": ""
   },
   {
-   "id": "link-3091",
+   "id": "link-3095",
    "from": "2026-11-19-4",
    "to": "2026-11-21-3",
    "type": "related",
@@ -31099,7 +31293,7 @@
    "note": ""
   },
   {
-   "id": "link-3092",
+   "id": "link-3096",
    "from": "2026-11-19-5",
    "to": "2026-11-21-1",
    "type": "related",
@@ -31109,7 +31303,7 @@
    "note": ""
   },
   {
-   "id": "link-3093",
+   "id": "link-3097",
    "from": "2026-11-19-5",
    "to": "2026-11-21-5",
    "type": "related",
@@ -31119,7 +31313,7 @@
    "note": ""
   },
   {
-   "id": "link-3094",
+   "id": "link-3098",
    "from": "2026-11-19-5",
    "to": "2026-11-22-5",
    "type": "related",
@@ -31129,7 +31323,7 @@
    "note": ""
   },
   {
-   "id": "link-3096",
+   "id": "link-3100",
    "from": "2026-11-19-7",
    "to": "2026-11-21-4",
    "type": "leads_to",
@@ -31139,7 +31333,7 @@
    "note": ""
   },
   {
-   "id": "link-3119",
+   "id": "link-3124",
    "from": "2026-11-20-1",
    "to": "2026-11-20-6",
    "type": "same_arc",
@@ -31149,7 +31343,7 @@
    "note": ""
   },
   {
-   "id": "link-3120",
+   "id": "link-3125",
    "from": "2026-11-20-1",
    "to": "2026-11-21-6",
    "type": "same_arc",
@@ -31159,7 +31353,7 @@
    "note": ""
   },
   {
-   "id": "link-3121",
+   "id": "link-3126",
    "from": "2026-11-20-1",
    "to": "2026-11-22-1",
    "type": "related",
@@ -31169,7 +31363,7 @@
    "note": ""
   },
   {
-   "id": "link-3122",
+   "id": "link-3127",
    "from": "2026-11-20-1",
    "to": "2026-11-23-1",
    "type": "causes",
@@ -31179,7 +31373,7 @@
    "note": ""
   },
   {
-   "id": "link-3124",
+   "id": "link-3129",
    "from": "2026-11-20-1",
    "to": "2026-11-27-2",
    "type": "related",
@@ -31189,7 +31383,7 @@
    "note": ""
   },
   {
-   "id": "link-3125",
+   "id": "link-3130",
    "from": "2026-11-20-2",
    "to": "2026-11-21-2",
    "type": "related",
@@ -31199,7 +31393,7 @@
    "note": ""
   },
   {
-   "id": "link-3126",
+   "id": "link-3131",
    "from": "2026-11-20-2",
    "to": "2026-11-21-3",
    "type": "related",
@@ -31209,7 +31403,7 @@
    "note": ""
   },
   {
-   "id": "link-3127",
+   "id": "link-3132",
    "from": "2026-11-20-2",
    "to": "2026-11-21-8",
    "type": "same_arc",
@@ -31219,7 +31413,7 @@
    "note": ""
   },
   {
-   "id": "link-3128",
+   "id": "link-3133",
    "from": "2026-11-20-2",
    "to": "2026-11-22-2",
    "type": "related",
@@ -31229,7 +31423,7 @@
    "note": ""
   },
   {
-   "id": "link-3129",
+   "id": "link-3134",
    "from": "2026-11-20-2",
    "to": "2026-11-25-3",
    "type": "related",
@@ -31239,7 +31433,7 @@
    "note": ""
   },
   {
-   "id": "link-3131",
+   "id": "link-3136",
    "from": "2026-11-20-3",
    "to": "2026-11-22-2",
    "type": "related",
@@ -31249,7 +31443,7 @@
    "note": ""
   },
   {
-   "id": "link-3132",
+   "id": "link-3137",
    "from": "2026-11-20-3",
    "to": "2026-11-22-4",
    "type": "related",
@@ -31259,7 +31453,7 @@
    "note": ""
   },
   {
-   "id": "link-3133",
+   "id": "link-3138",
    "from": "2026-11-20-3",
    "to": "2026-11-23-1",
    "type": "related",
@@ -31269,7 +31463,7 @@
    "note": ""
   },
   {
-   "id": "link-3134",
+   "id": "link-3139",
    "from": "2026-11-20-3",
    "to": "2026-11-24-3",
    "type": "related",
@@ -31279,7 +31473,7 @@
    "note": ""
   },
   {
-   "id": "link-3135",
+   "id": "link-3140",
    "from": "2026-11-20-3",
    "to": "2026-11-24-4",
    "type": "related",
@@ -31289,7 +31483,7 @@
    "note": ""
   },
   {
-   "id": "link-3137",
+   "id": "link-3142",
    "from": "2026-11-20-3",
    "to": "2026-11-26-5",
    "type": "related",
@@ -31299,7 +31493,7 @@
    "note": ""
   },
   {
-   "id": "link-3138",
+   "id": "link-3143",
    "from": "2026-11-20-3",
    "to": "2026-11-27-2",
    "type": "related",
@@ -31309,7 +31503,7 @@
    "note": ""
   },
   {
-   "id": "link-3139",
+   "id": "link-3144",
    "from": "2026-11-20-4",
    "to": "2026-11-21-1",
    "type": "related",
@@ -31319,7 +31513,7 @@
    "note": ""
   },
   {
-   "id": "link-3140",
+   "id": "link-3145",
    "from": "2026-11-20-4",
    "to": "2026-11-21-2",
    "type": "related",
@@ -31329,7 +31523,7 @@
    "note": ""
   },
   {
-   "id": "link-3141",
+   "id": "link-3146",
    "from": "2026-11-20-4",
    "to": "2026-11-21-3",
    "type": "related",
@@ -31339,7 +31533,7 @@
    "note": ""
   },
   {
-   "id": "link-3142",
+   "id": "link-3147",
    "from": "2026-11-20-4",
    "to": "2026-11-25-1",
    "type": "related",
@@ -31349,7 +31543,7 @@
    "note": ""
   },
   {
-   "id": "link-3143",
+   "id": "link-3148",
    "from": "2026-11-20-5",
    "to": "2026-11-21-3",
    "type": "related",
@@ -31359,7 +31553,7 @@
    "note": ""
   },
   {
-   "id": "link-3144",
+   "id": "link-3149",
    "from": "2026-11-20-5",
    "to": "2026-11-24-4",
    "type": "related",
@@ -31369,7 +31563,7 @@
    "note": ""
   },
   {
-   "id": "link-3145",
+   "id": "link-3150",
    "from": "2026-11-20-6",
    "to": "2026-11-21-6",
    "type": "same_arc",
@@ -31379,7 +31573,7 @@
    "note": ""
   },
   {
-   "id": "link-3148",
+   "id": "link-3153",
    "from": "2026-11-20-6",
    "to": "2026-11-23-1",
    "type": "causes",
@@ -31389,7 +31583,7 @@
    "note": ""
   },
   {
-   "id": "link-3154",
+   "id": "link-3159",
    "from": "2026-11-21-1",
    "to": "2026-11-21-4",
    "type": "related",
@@ -31399,7 +31593,7 @@
    "note": ""
   },
   {
-   "id": "link-3155",
+   "id": "link-3160",
    "from": "2026-11-21-1",
    "to": "2026-11-21-5",
    "type": "related",
@@ -31409,7 +31603,7 @@
    "note": ""
   },
   {
-   "id": "link-3157",
+   "id": "link-3162",
    "from": "2026-11-21-1",
    "to": "2026-11-22-5",
    "type": "related",
@@ -31419,7 +31613,7 @@
    "note": ""
   },
   {
-   "id": "link-3158",
+   "id": "link-3163",
    "from": "2026-11-21-1",
    "to": "2026-11-23-3",
    "type": "related",
@@ -31429,7 +31623,7 @@
    "note": ""
   },
   {
-   "id": "link-3159",
+   "id": "link-3164",
    "from": "2026-11-21-1",
    "to": "2026-11-24-5",
    "type": "related",
@@ -31439,7 +31633,7 @@
    "note": ""
   },
   {
-   "id": "link-3160",
+   "id": "link-3165",
    "from": "2026-11-21-1",
    "to": "2026-11-25-1",
    "type": "related",
@@ -31449,7 +31643,7 @@
    "note": ""
   },
   {
-   "id": "link-3161",
+   "id": "link-3166",
    "from": "2026-11-21-1",
    "to": "2026-11-27-3",
    "type": "related",
@@ -31459,7 +31653,7 @@
    "note": ""
   },
   {
-   "id": "link-3162",
+   "id": "link-3167",
    "from": "2026-11-21-2",
    "to": "2026-11-21-3",
    "type": "same_arc",
@@ -31469,7 +31663,7 @@
    "note": ""
   },
   {
-   "id": "link-3164",
+   "id": "link-3169",
    "from": "2026-11-21-2",
    "to": "2026-11-22-2",
    "type": "related",
@@ -31479,7 +31673,7 @@
    "note": ""
   },
   {
-   "id": "link-3165",
+   "id": "link-3170",
    "from": "2026-11-21-2",
    "to": "2026-11-24-1",
    "type": "related",
@@ -31489,7 +31683,7 @@
    "note": ""
   },
   {
-   "id": "link-3166",
+   "id": "link-3171",
    "from": "2026-11-21-2",
    "to": "2026-11-25-3",
    "type": "related",
@@ -31499,7 +31693,7 @@
    "note": ""
   },
   {
-   "id": "link-3168",
+   "id": "link-3173",
    "from": "2026-11-21-3",
    "to": "2026-11-22-2",
    "type": "related",
@@ -31509,7 +31703,7 @@
    "note": ""
   },
   {
-   "id": "link-3169",
+   "id": "link-3174",
    "from": "2026-11-21-3",
    "to": "2026-11-22-5",
    "type": "related",
@@ -31519,7 +31713,7 @@
    "note": ""
   },
   {
-   "id": "link-3170",
+   "id": "link-3175",
    "from": "2026-11-21-3",
    "to": "2026-11-24-4",
    "type": "related",
@@ -31529,7 +31723,7 @@
    "note": ""
   },
   {
-   "id": "link-3171",
+   "id": "link-3176",
    "from": "2026-11-21-3",
    "to": "2026-11-25-3",
    "type": "related",
@@ -31539,7 +31733,17 @@
    "note": ""
   },
   {
-   "id": "link-3172",
+   "id": "link-3177",
+   "from": "2026-11-21-3",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3178",
    "from": "2026-11-21-4",
    "to": "2026-11-21-5",
    "type": "related",
@@ -31549,7 +31753,7 @@
    "note": ""
   },
   {
-   "id": "link-3173",
+   "id": "link-3179",
    "from": "2026-11-21-4",
    "to": "2026-11-21-7",
    "type": "same_arc",
@@ -31559,7 +31763,7 @@
    "note": ""
   },
   {
-   "id": "link-3174",
+   "id": "link-3180",
    "from": "2026-11-21-4",
    "to": "2026-11-23-2",
    "type": "related",
@@ -31569,7 +31773,7 @@
    "note": ""
   },
   {
-   "id": "link-3175",
+   "id": "link-3181",
    "from": "2026-11-21-4",
    "to": "2026-11-24-1",
    "type": "causes",
@@ -31579,7 +31783,7 @@
    "note": ""
   },
   {
-   "id": "link-3176",
+   "id": "link-3182",
    "from": "2026-11-21-4",
    "to": "2026-11-24-2",
    "type": "related",
@@ -31589,7 +31793,7 @@
    "note": ""
   },
   {
-   "id": "link-3177",
+   "id": "link-3183",
    "from": "2026-11-21-4",
    "to": "2026-11-24-5",
    "type": "related",
@@ -31599,7 +31803,7 @@
    "note": ""
   },
   {
-   "id": "link-3178",
+   "id": "link-3184",
    "from": "2026-11-21-4",
    "to": "2026-11-25-2",
    "type": "related",
@@ -31609,7 +31813,7 @@
    "note": ""
   },
   {
-   "id": "link-3180",
+   "id": "link-3186",
    "from": "2026-11-21-4",
    "to": "2026-11-26-1",
    "type": "related",
@@ -31619,7 +31823,7 @@
    "note": ""
   },
   {
-   "id": "link-3181",
+   "id": "link-3187",
    "from": "2026-11-21-4",
    "to": "2026-11-26-2",
    "type": "related",
@@ -31629,7 +31833,7 @@
    "note": ""
   },
   {
-   "id": "link-3182",
+   "id": "link-3188",
    "from": "2026-11-21-4",
    "to": "2026-11-26-3",
    "type": "related",
@@ -31639,7 +31843,7 @@
    "note": ""
   },
   {
-   "id": "link-3183",
+   "id": "link-3189",
    "from": "2026-11-21-4",
    "to": "2026-11-27-1",
    "type": "related",
@@ -31649,7 +31853,17 @@
    "note": ""
   },
   {
-   "id": "link-3187",
+   "id": "link-3191",
+   "from": "2026-11-21-4",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.28,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3194",
    "from": "2026-11-21-5",
    "to": "2026-11-22-5",
    "type": "related",
@@ -31659,7 +31873,7 @@
    "note": ""
   },
   {
-   "id": "link-3188",
+   "id": "link-3195",
    "from": "2026-11-21-5",
    "to": "2026-11-24-5",
    "type": "related",
@@ -31669,7 +31883,7 @@
    "note": ""
   },
   {
-   "id": "link-3189",
+   "id": "link-3196",
    "from": "2026-11-21-5",
    "to": "2026-11-25-4",
    "type": "related",
@@ -31679,7 +31893,7 @@
    "note": ""
   },
   {
-   "id": "link-3190",
+   "id": "link-3197",
    "from": "2026-11-21-5",
    "to": "2026-11-27-3",
    "type": "related",
@@ -31689,7 +31903,7 @@
    "note": ""
   },
   {
-   "id": "link-3210",
+   "id": "link-3219",
    "from": "2026-11-22-1",
    "to": "2026-11-23-1",
    "type": "related",
@@ -31699,7 +31913,7 @@
    "note": ""
   },
   {
-   "id": "link-3212",
+   "id": "link-3221",
    "from": "2026-11-22-1",
    "to": "2026-11-26-5",
    "type": "related",
@@ -31709,7 +31923,7 @@
    "note": ""
   },
   {
-   "id": "link-3213",
+   "id": "link-3222",
    "from": "2026-11-22-1",
    "to": "2026-11-27-2",
    "type": "related",
@@ -31719,7 +31933,7 @@
    "note": ""
   },
   {
-   "id": "link-3214",
+   "id": "link-3223",
    "from": "2026-11-22-2",
    "to": "2026-11-25-3",
    "type": "related",
@@ -31729,7 +31943,7 @@
    "note": ""
   },
   {
-   "id": "link-3215",
+   "id": "link-3225",
    "from": "2026-11-22-3",
    "to": "2026-11-23-3",
    "type": "related",
@@ -31739,7 +31953,7 @@
    "note": ""
   },
   {
-   "id": "link-3217",
+   "id": "link-3227",
    "from": "2026-11-22-3",
    "to": "2026-11-26-1",
    "type": "related",
@@ -31749,7 +31963,7 @@
    "note": ""
   },
   {
-   "id": "link-3218",
+   "id": "link-3228",
    "from": "2026-11-22-3",
    "to": "2026-11-27-3",
    "type": "related",
@@ -31759,7 +31973,7 @@
    "note": ""
   },
   {
-   "id": "link-3219",
+   "id": "link-3229",
    "from": "2026-11-22-4",
    "to": "2026-11-23-1",
    "type": "related",
@@ -31769,7 +31983,7 @@
    "note": ""
   },
   {
-   "id": "link-3220",
+   "id": "link-3230",
    "from": "2026-11-22-4",
    "to": "2026-11-24-3",
    "type": "causes",
@@ -31779,7 +31993,7 @@
    "note": ""
   },
   {
-   "id": "link-3221",
+   "id": "link-3231",
    "from": "2026-11-22-4",
    "to": "2026-11-24-4",
    "type": "related",
@@ -31789,7 +32003,7 @@
    "note": ""
   },
   {
-   "id": "link-3223",
+   "id": "link-3233",
    "from": "2026-11-22-4",
    "to": "2026-11-26-5",
    "type": "related",
@@ -31799,7 +32013,7 @@
    "note": ""
   },
   {
-   "id": "link-3224",
+   "id": "link-3234",
    "from": "2026-11-22-4",
    "to": "2026-11-27-2",
    "type": "related",
@@ -31809,7 +32023,27 @@
    "note": ""
   },
   {
-   "id": "link-3225",
+   "id": "link-3235",
+   "from": "2026-11-22-4",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3236",
+   "from": "2026-11-22-4",
+   "to": "2026-11-28-5",
+   "type": "causes",
+   "label": "因果: GPT-6.2 Astra・GPT-6.2 Sol",
+   "confidence": 0.53,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3237",
    "from": "2026-11-22-5",
    "to": "2026-11-25-4",
    "type": "related",
@@ -31819,7 +32053,17 @@
    "note": ""
   },
   {
-   "id": "link-3226",
+   "id": "link-3238",
+   "from": "2026-11-22-5",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: Apple",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3239",
    "from": "2026-11-23-1",
    "to": "2026-11-24-3",
    "type": "related",
@@ -31829,7 +32073,7 @@
    "note": ""
   },
   {
-   "id": "link-3227",
+   "id": "link-3240",
    "from": "2026-11-23-1",
    "to": "2026-11-24-4",
    "type": "related",
@@ -31839,7 +32083,7 @@
    "note": ""
   },
   {
-   "id": "link-3228",
+   "id": "link-3241",
    "from": "2026-11-23-1",
    "to": "2026-11-24-7",
    "type": "same_arc",
@@ -31849,7 +32093,7 @@
    "note": ""
   },
   {
-   "id": "link-3229",
+   "id": "link-3242",
    "from": "2026-11-23-1",
    "to": "2026-11-26-5",
    "type": "related",
@@ -31859,7 +32103,7 @@
    "note": ""
   },
   {
-   "id": "link-3230",
+   "id": "link-3243",
    "from": "2026-11-23-1",
    "to": "2026-11-27-2",
    "type": "related",
@@ -31869,7 +32113,27 @@
    "note": ""
   },
   {
-   "id": "link-3231",
+   "id": "link-3244",
+   "from": "2026-11-23-1",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3245",
+   "from": "2026-11-23-1",
+   "to": "2026-11-28-5",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3246",
    "from": "2026-11-23-2",
    "to": "2026-11-24-1",
    "type": "causes",
@@ -31879,7 +32143,7 @@
    "note": ""
   },
   {
-   "id": "link-3232",
+   "id": "link-3247",
    "from": "2026-11-23-2",
    "to": "2026-11-24-2",
    "type": "causes",
@@ -31889,7 +32153,7 @@
    "note": ""
   },
   {
-   "id": "link-3233",
+   "id": "link-3248",
    "from": "2026-11-23-2",
    "to": "2026-11-25-2",
    "type": "related",
@@ -31899,7 +32163,7 @@
    "note": ""
   },
   {
-   "id": "link-3234",
+   "id": "link-3249",
    "from": "2026-11-23-2",
    "to": "2026-11-25-6",
    "type": "causes",
@@ -31909,7 +32173,7 @@
    "note": ""
   },
   {
-   "id": "link-3235",
+   "id": "link-3250",
    "from": "2026-11-23-2",
    "to": "2026-11-26-1",
    "type": "related",
@@ -31919,7 +32183,7 @@
    "note": ""
   },
   {
-   "id": "link-3236",
+   "id": "link-3251",
    "from": "2026-11-23-2",
    "to": "2026-11-26-2",
    "type": "related",
@@ -31929,7 +32193,7 @@
    "note": ""
   },
   {
-   "id": "link-3237",
+   "id": "link-3252",
    "from": "2026-11-23-2",
    "to": "2026-11-26-3",
    "type": "related",
@@ -31939,7 +32203,7 @@
    "note": ""
   },
   {
-   "id": "link-3238",
+   "id": "link-3253",
    "from": "2026-11-23-2",
    "to": "2026-11-27-1",
    "type": "related",
@@ -31949,7 +32213,17 @@
    "note": ""
   },
   {
-   "id": "link-3241",
+   "id": "link-3255",
+   "from": "2026-11-23-2",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: Megaspeed・NVIDIA",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3257",
    "from": "2026-11-23-3",
    "to": "2026-11-26-1",
    "type": "causes",
@@ -31959,7 +32233,7 @@
    "note": ""
   },
   {
-   "id": "link-3242",
+   "id": "link-3258",
    "from": "2026-11-23-3",
    "to": "2026-11-27-3",
    "type": "related",
@@ -31969,7 +32243,7 @@
    "note": ""
   },
   {
-   "id": "link-3243",
+   "id": "link-3259",
    "from": "2026-11-23-4",
    "to": "2026-11-24-5",
    "type": "related",
@@ -31979,7 +32253,7 @@
    "note": ""
   },
   {
-   "id": "link-3244",
+   "id": "link-3260",
    "from": "2026-11-23-4",
    "to": "2026-11-25-5",
    "type": "causes",
@@ -31989,7 +32263,7 @@
    "note": ""
   },
   {
-   "id": "link-3245",
+   "id": "link-3261",
    "from": "2026-11-23-4",
    "to": "2026-11-26-4",
    "type": "related",
@@ -31999,7 +32273,7 @@
    "note": ""
   },
   {
-   "id": "link-3246",
+   "id": "link-3262",
    "from": "2026-11-23-4",
    "to": "2026-11-26-6",
    "type": "causes",
@@ -32009,7 +32283,17 @@
    "note": ""
   },
   {
-   "id": "link-3247",
+   "id": "link-3263",
+   "from": "2026-11-23-4",
+   "to": "2026-11-28-4",
+   "type": "causes",
+   "label": "因果: FBI · breach/government",
+   "confidence": 0.45,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3264",
    "from": "2026-11-24-1",
    "to": "2026-11-24-2",
    "type": "related",
@@ -32019,7 +32303,7 @@
    "note": ""
   },
   {
-   "id": "link-3248",
+   "id": "link-3265",
    "from": "2026-11-24-1",
    "to": "2026-11-25-2",
    "type": "related",
@@ -32029,7 +32313,7 @@
    "note": ""
   },
   {
-   "id": "link-3250",
+   "id": "link-3267",
    "from": "2026-11-24-1",
    "to": "2026-11-26-1",
    "type": "related",
@@ -32039,7 +32323,7 @@
    "note": ""
   },
   {
-   "id": "link-3251",
+   "id": "link-3268",
    "from": "2026-11-24-1",
    "to": "2026-11-26-2",
    "type": "related",
@@ -32049,7 +32333,7 @@
    "note": ""
   },
   {
-   "id": "link-3252",
+   "id": "link-3269",
    "from": "2026-11-24-1",
    "to": "2026-11-26-3",
    "type": "related",
@@ -32059,7 +32343,7 @@
    "note": ""
   },
   {
-   "id": "link-3253",
+   "id": "link-3270",
    "from": "2026-11-24-1",
    "to": "2026-11-27-1",
    "type": "related",
@@ -32069,7 +32353,7 @@
    "note": ""
   },
   {
-   "id": "link-3254",
+   "id": "link-3271",
    "from": "2026-11-24-1",
    "to": "2026-11-27-6",
    "type": "causes",
@@ -32079,7 +32363,17 @@
    "note": ""
   },
   {
-   "id": "link-3256",
+   "id": "link-3272",
+   "from": "2026-11-24-1",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3274",
    "from": "2026-11-24-2",
    "to": "2026-11-25-2",
    "type": "related",
@@ -32089,7 +32383,7 @@
    "note": ""
   },
   {
-   "id": "link-3258",
+   "id": "link-3276",
    "from": "2026-11-24-2",
    "to": "2026-11-26-1",
    "type": "related",
@@ -32099,7 +32393,7 @@
    "note": ""
   },
   {
-   "id": "link-3259",
+   "id": "link-3277",
    "from": "2026-11-24-2",
    "to": "2026-11-26-2",
    "type": "related",
@@ -32109,7 +32403,7 @@
    "note": ""
   },
   {
-   "id": "link-3260",
+   "id": "link-3278",
    "from": "2026-11-24-2",
    "to": "2026-11-26-3",
    "type": "causes",
@@ -32119,7 +32413,7 @@
    "note": ""
   },
   {
-   "id": "link-3261",
+   "id": "link-3279",
    "from": "2026-11-24-2",
    "to": "2026-11-27-1",
    "type": "related",
@@ -32129,7 +32423,7 @@
    "note": ""
   },
   {
-   "id": "link-3262",
+   "id": "link-3280",
    "from": "2026-11-24-2",
    "to": "2026-11-27-2",
    "type": "related",
@@ -32139,7 +32433,17 @@
    "note": ""
   },
   {
-   "id": "link-3265",
+   "id": "link-3282",
+   "from": "2026-11-24-2",
+   "to": "2026-11-28-2",
+   "type": "causes",
+   "label": "因果: Megaspeed・NVIDIA · export control",
+   "confidence": 0.45,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3284",
    "from": "2026-11-24-3",
    "to": "2026-11-24-4",
    "type": "related",
@@ -32149,7 +32453,7 @@
    "note": ""
   },
   {
-   "id": "link-3267",
+   "id": "link-3286",
    "from": "2026-11-24-3",
    "to": "2026-11-26-5",
    "type": "related",
@@ -32159,7 +32463,7 @@
    "note": ""
   },
   {
-   "id": "link-3268",
+   "id": "link-3287",
    "from": "2026-11-24-3",
    "to": "2026-11-27-2",
    "type": "related",
@@ -32169,7 +32473,27 @@
    "note": ""
   },
   {
-   "id": "link-3270",
+   "id": "link-3288",
+   "from": "2026-11-24-3",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.29,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3289",
+   "from": "2026-11-24-3",
+   "to": "2026-11-28-5",
+   "type": "causes",
+   "label": "因果: ChatGPT・GPT-6.2 Sol · ChatGPT",
+   "confidence": 0.62,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3291",
    "from": "2026-11-24-4",
    "to": "2026-11-25-5",
    "type": "related",
@@ -32179,7 +32503,7 @@
    "note": ""
   },
   {
-   "id": "link-3271",
+   "id": "link-3292",
    "from": "2026-11-24-4",
    "to": "2026-11-26-4",
    "type": "related",
@@ -32189,7 +32513,7 @@
    "note": ""
   },
   {
-   "id": "link-3272",
+   "id": "link-3293",
    "from": "2026-11-24-4",
    "to": "2026-11-26-5",
    "type": "related",
@@ -32199,7 +32523,7 @@
    "note": ""
   },
   {
-   "id": "link-3274",
+   "id": "link-3295",
    "from": "2026-11-24-4",
    "to": "2026-11-27-2",
    "type": "related",
@@ -32209,7 +32533,27 @@
    "note": ""
   },
   {
-   "id": "link-3275",
+   "id": "link-3296",
+   "from": "2026-11-24-4",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.27,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3297",
+   "from": "2026-11-24-4",
+   "to": "2026-11-28-5",
+   "type": "related",
+   "label": "関連: Codex・OpenAI",
+   "confidence": 0.34,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3298",
    "from": "2026-11-24-5",
    "to": "2026-11-26-3",
    "type": "related",
@@ -32219,7 +32563,7 @@
    "note": ""
   },
   {
-   "id": "link-3279",
+   "id": "link-3304",
    "from": "2026-11-25-2",
    "to": "2026-11-26-1",
    "type": "related",
@@ -32229,7 +32573,7 @@
    "note": ""
   },
   {
-   "id": "link-3280",
+   "id": "link-3305",
    "from": "2026-11-25-2",
    "to": "2026-11-26-2",
    "type": "related",
@@ -32239,7 +32583,7 @@
    "note": ""
   },
   {
-   "id": "link-3281",
+   "id": "link-3306",
    "from": "2026-11-25-2",
    "to": "2026-11-26-3",
    "type": "related",
@@ -32249,7 +32593,7 @@
    "note": ""
   },
   {
-   "id": "link-3282",
+   "id": "link-3307",
    "from": "2026-11-25-2",
    "to": "2026-11-27-1",
    "type": "related",
@@ -32259,7 +32603,17 @@
    "note": ""
   },
   {
-   "id": "link-3285",
+   "id": "link-3309",
+   "from": "2026-11-25-2",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3311",
    "from": "2026-11-25-4",
    "to": "2026-11-27-3",
    "type": "related",
@@ -32269,7 +32623,7 @@
    "note": ""
   },
   {
-   "id": "link-3286",
+   "id": "link-3312",
    "from": "2026-11-25-5",
    "to": "2026-11-26-4",
    "type": "related",
@@ -32279,7 +32633,7 @@
    "note": ""
   },
   {
-   "id": "link-3287",
+   "id": "link-3313",
    "from": "2026-11-25-5",
    "to": "2026-11-26-6",
    "type": "same_arc",
@@ -32289,7 +32643,27 @@
    "note": ""
   },
   {
-   "id": "link-3288",
+   "id": "link-3314",
+   "from": "2026-11-25-5",
+   "to": "2026-11-28-3",
+   "type": "related",
+   "label": "関連: breach",
+   "confidence": 0.26,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3315",
+   "from": "2026-11-25-5",
+   "to": "2026-11-28-4",
+   "type": "leads_to",
+   "label": "波及: CIA・FBI · breach/government",
+   "confidence": 0.81,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3316",
    "from": "2026-11-25-6",
    "to": "2026-11-26-1",
    "type": "same_arc",
@@ -32299,7 +32673,17 @@
    "note": ""
   },
   {
-   "id": "link-3294",
+   "id": "link-3323",
+   "from": "2026-11-25-6",
+   "to": "2026-11-28-7",
+   "type": "leads_to",
+   "label": "波及: SanDisk · NAND/memory",
+   "confidence": 0.72,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3324",
    "from": "2026-11-26-1",
    "to": "2026-11-26-2",
    "type": "related",
@@ -32309,7 +32693,7 @@
    "note": ""
   },
   {
-   "id": "link-3295",
+   "id": "link-3325",
    "from": "2026-11-26-1",
    "to": "2026-11-26-3",
    "type": "related",
@@ -32319,7 +32703,7 @@
    "note": ""
   },
   {
-   "id": "link-3296",
+   "id": "link-3326",
    "from": "2026-11-26-1",
    "to": "2026-11-27-1",
    "type": "related",
@@ -32329,7 +32713,7 @@
    "note": ""
   },
   {
-   "id": "link-3297",
+   "id": "link-3327",
    "from": "2026-11-26-1",
    "to": "2026-11-27-3",
    "type": "related",
@@ -32339,7 +32723,17 @@
    "note": ""
   },
   {
-   "id": "link-3300",
+   "id": "link-3329",
+   "from": "2026-11-26-1",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3332",
    "from": "2026-11-26-2",
    "to": "2026-11-26-3",
    "type": "related",
@@ -32349,7 +32743,7 @@
    "note": ""
   },
   {
-   "id": "link-3301",
+   "id": "link-3333",
    "from": "2026-11-26-2",
    "to": "2026-11-27-1",
    "type": "related",
@@ -32359,7 +32753,17 @@
    "note": ""
   },
   {
-   "id": "link-3304",
+   "id": "link-3335",
+   "from": "2026-11-26-2",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3337",
    "from": "2026-11-26-3",
    "to": "2026-11-27-1",
    "type": "related",
@@ -32369,7 +32773,7 @@
    "note": ""
   },
   {
-   "id": "link-3305",
+   "id": "link-3338",
    "from": "2026-11-26-3",
    "to": "2026-11-27-2",
    "type": "related",
@@ -32379,7 +32783,37 @@
    "note": ""
   },
   {
-   "id": "link-3309",
+   "id": "link-3340",
+   "from": "2026-11-26-3",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: NVIDIA · smuggling",
+   "confidence": 0.44,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3343",
+   "from": "2026-11-26-4",
+   "to": "2026-11-28-3",
+   "type": "causes",
+   "label": "因果: GitHub · breach",
+   "confidence": 0.5,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3344",
+   "from": "2026-11-26-4",
+   "to": "2026-11-28-4",
+   "type": "related",
+   "label": "関連: breach/security",
+   "confidence": 0.31,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3345",
    "from": "2026-11-26-5",
    "to": "2026-11-27-2",
    "type": "related",
@@ -32389,12 +32823,102 @@
    "note": ""
   },
   {
-   "id": "link-3310",
+   "id": "link-3346",
+   "from": "2026-11-26-5",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.39,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3347",
+   "from": "2026-11-26-5",
+   "to": "2026-11-28-5",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.38,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3349",
+   "from": "2026-11-26-6",
+   "to": "2026-11-28-4",
+   "type": "leads_to",
+   "label": "波及: FBI · breach/government",
+   "confidence": 0.72,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3350",
    "from": "2026-11-27-1",
    "to": "2026-11-27-2",
    "type": "related",
    "label": "関連: US Commerce Department",
    "confidence": 0.4,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3352",
+   "from": "2026-11-27-1",
+   "to": "2026-11-28-2",
+   "type": "related",
+   "label": "関連: NVIDIA",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3354",
+   "from": "2026-11-27-2",
+   "to": "2026-11-28-1",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.37,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3355",
+   "from": "2026-11-27-2",
+   "to": "2026-11-28-5",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.36,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3358",
+   "from": "2026-11-28-1",
+   "to": "2026-11-28-5",
+   "type": "related",
+   "label": "関連: OpenAI",
+   "confidence": 0.42,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3359",
+   "from": "2026-11-28-2",
+   "to": "2026-11-28-6",
+   "type": "same_arc",
+   "label": "同弧: NVIDIA · export control/smuggling",
+   "confidence": 0.65,
+   "auto": true,
+   "note": ""
+  },
+  {
+   "id": "link-3360",
+   "from": "2026-11-28-3",
+   "to": "2026-11-28-4",
+   "type": "related",
+   "label": "関連: breach",
+   "confidence": 0.29,
    "auto": true,
    "note": ""
   }
